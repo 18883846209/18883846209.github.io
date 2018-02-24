@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/23/Tools/" data-id="cjdzmg4ri000144v63h8lwjgf" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/23/Tools/" data-id="cje145z8j0000hgv6bxj8po07" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -116,26 +116,18 @@
   <div class="article-inner">
     
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/23/program/">前端开发小技巧</a>
-    </h1>
-  
-
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
         <!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ -->
 <p><br></p>
-<h4 id="给html元素增加点击状态"><a href="#给html元素增加点击状态" class="headerlink" title="给html元素增加点击状态"></a>给html元素增加点击状态</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">给元素添加伪类:active</span><br><span class="line">css设置</span><br><span class="line">:active &#123;</span><br><span class="line">    background-color: <span class="comment">#eee; // 设置自己需要的颜色</span></span><br><span class="line">&#125;</span><br><span class="line">js添加下面配置</span><br><span class="line">document.body.addEventListener(<span class="string">'touchstart'</span>, <span class="function"><span class="title">function</span></span> () &#123;&#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="给html元素添加点击状态"><a href="#给html元素添加点击状态" class="headerlink" title="给html元素添加点击状态"></a>给html元素添加点击状态</h4><p>给元素添加伪类:active<br>css设置如下<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">:active &#123;</span><br><span class="line">    background-color: <span class="comment">#eee; // 设置自己需要的颜色</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<p>有些iOS和Android上的链接或者按钮被点击的时候都会忽略这个属性。为了使用这个active状态，你需要使用JavaScript给页面添加一个简单的事件:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">document.body.addEventListener(&apos;touchstart&apos;, function()&#123;&#125;, true);</span><br></pre></td></tr></table></figure></p>
+<h4 id="文字输入限制问题（输入完成后才做出判断）"><a href="#文字输入限制问题（输入完成后才做出判断）" class="headerlink" title="文字输入限制问题（输入完成后才做出判断）"></a>文字输入限制问题（输入完成后才做出判断）</h4><p>当输入汉字时必然会是非直接输入，需要我们点选才能正式输入。<br>当我们字数限制为16个字，需要实时检查是否到16字。输入文字时，当有非直接的文字输入时，监听keydown事件和input事件都会直接触发判断字数逻辑，会截断我们正在输入的文字。<br>解决办法：<br>监听compositionend（当直接的文字输入时触发）这时，当没选中文字的时候不会进行字数判断。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$(&apos;#input&apos;).on(&apos;compositionend&apos;, () =&gt; &#123;</span><br><span class="line">    let len = $(&apos;#input&apos;).val().length;</span><br><span class="line">    if (len &gt; 5) &#123;</span><br><span class="line">        // 提示超出字数</span><br><span class="line">        $.toast().reset(&apos;all&apos;);</span><br><span class="line">        $.toast(&apos;不能超过5个字&apos;);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/23/program/" data-id="cjdzmg4rs000644v60na802rm" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/23/program/" data-id="cje145z8q0001hgv6f955ea9d" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -171,7 +163,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/23/vscode常用配置/" data-id="cjdzmg4rs000544v6cu3m5y01" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/23/vscode常用配置/" data-id="cje145z8w0005hgv6jtguwo2p" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -213,7 +205,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/12/todo/" data-id="cjdzmg4rs000344v6us8wfeur" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/12/todo/" data-id="cje145z8u0004hgv6a3jot1g1" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -255,7 +247,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/12/programs/" data-id="cjdzmg4rs000444v6voz9pimu" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/12/programs/" data-id="cje145z8t0003hgv6f7lsguyh" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -312,7 +304,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/09/test/" data-id="cjdzmg4rs000244v6627lyjev" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/09/test/" data-id="cje145z8s0002hgv678e3bof5" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -357,7 +349,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/02/09/hello-world/" data-id="cjdzmg4ri000044v6g8hdpwdi" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/02/09/hello-world/" data-id="cje145z980006hgv6y02h4c87" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -402,7 +394,7 @@
           </li>
         
           <li>
-            <a href="/2018/02/23/program/">前端开发小技巧</a>
+            <a href="/2018/02/23/program/">(no title)</a>
           </li>
         
           <li>
