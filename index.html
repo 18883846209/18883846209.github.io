@@ -163,6 +163,236 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-webpack_typescript" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/16/webpack_typescript/">typescript+webpack基础开发配置</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/16/webpack_typescript/" class="archive-article-date">
+  	<time datetime="2018-03-16T06:12:51.914Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1、安装相应的依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install ts-loader --save-dev</span><br></pre></td></tr></table></figure></p>
+<p>2、webpack.base.config添加如下配置<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.tsx?$/</span>, <span class="comment">// typescript配置</span></span><br><span class="line">    loader: <span class="string">'ts-loader'</span>,</span><br><span class="line">    include: resolve(<span class="string">'src'</span>),</span><br><span class="line">    exclude: <span class="regexp">/node_modules/</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p>
+<p>3、入口文件改成ts文件<br>4、根目录添加tsconfig.json文件<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"compilerOptions"</span>: &#123;</span><br><span class="line">      <span class="string">"outDir"</span>: <span class="string">"./dist/"</span>,</span><br><span class="line">      <span class="string">"sourceMap"</span>: <span class="literal">true</span>,</span><br><span class="line">      <span class="string">"noImplicitAny"</span>: <span class="literal">true</span>,</span><br><span class="line">      <span class="string">"module"</span>: <span class="string">"es6"</span>,</span><br><span class="line">      <span class="string">"target"</span>: <span class="string">"es5"</span>,</span><br><span class="line">      <span class="string">"jsx"</span>: <span class="string">"react"</span>,</span><br><span class="line">      <span class="string">"allowJs"</span>: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">webpack typescript</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/16/webpack_typescript/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-webpack_react" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/16/webpack_react/">一些react+webpack基础开发配置</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/16/webpack_react/" class="archive-article-date">
+  	<time datetime="2018-03-16T06:05:11.888Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1、安装相应的依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install babel-preset-react react react-dom --save-dev</span><br></pre></td></tr></table></figure></p>
+<p>2、webpack.base.config添加如下配置<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.jsx?$/</span>,</span><br><span class="line">    loader: <span class="string">'babel-loader?cacheDirectory=true'</span>, <span class="comment">// 开启缓存</span></span><br><span class="line">    include: resolve(<span class="string">'src'</span>),</span><br><span class="line">    query: &#123;</span><br><span class="line">        presets: [<span class="string">'react'</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    exclude: <span class="regexp">/node_modules/</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p>
+<p>3、src目录添加main.js  react.js文件(根据自己需要)<br>4、main.js添加如下<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'babel-polyfill'</span>;</span><br><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; render &#125; <span class="keyword">from</span> <span class="string">'react-dom'</span>;</span><br><span class="line"><span class="keyword">import</span> Component <span class="keyword">from</span> <span class="string">'./react'</span>;</span><br><span class="line"></span><br><span class="line">render(&lt;Component /&gt;,document.getElementById('test')); // eslint-disable-line</span><br></pre></td></tr></table></figure></p>
+<p>react.js<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Component</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123; <span class="comment">// eslint-disable-line</span></span><br><span class="line">	render() &#123;</span><br><span class="line">		<span class="keyword">return</span> &lt;div&gt;Helllo World&lt;/div&gt; <span class="comment">// eslint-disable-line</span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> Component;</span><br></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">webpack react</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/16/webpack_react/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
+    <article id="post-webpack_vue" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/16/webpack_vue/">一些vue+webpack基础开发配置</a>
+    </h1>
+  
+
+        
+        <a href="/2018/03/16/webpack_vue/" class="archive-article-date">
+  	<time datetime="2018-03-16T05:53:02.099Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-03-16</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>1、安装相应的依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-loader vue-template-compiler --save-dev</span><br></pre></td></tr></table></figure></p>
+<p>2、webpack.base.config添加如下配置<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.vue$/</span>,</span><br><span class="line">    use: [<span class="string">'vue-loader'</span>],</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p>
+<p>3、src添加main.js  App.vue文件(根据自己需要决定)<br>4、main.js添加如下<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">'vue'</span>;</span><br><span class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">'./App.vue'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue(&#123; <span class="comment">// eslint-disable-line</span></span><br><span class="line">	el: <span class="string">'#test'</span>, <span class="comment">// index.html文件的根元素</span></span><br><span class="line">	render: <span class="function"><span class="params">h</span> =&gt;</span> h(App)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p>
+<p>App.vue<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--渲染模版--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h1&gt;&#123;&#123; msg &#125;&#125;&lt;<span class="regexp">/h1&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>template&gt;</span><br><span class="line"></span><br><span class="line">&lt;!--样式描述--&gt;</span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">  h1 &#123;</span><br><span class="line">	color: red;</span><br><span class="line">  &#125;</span><br><span class="line">&lt;<span class="regexp">/style&gt;</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">&lt;!--组件逻辑--&gt;</span></span><br><span class="line"><span class="regexp">&lt;script&gt;</span></span><br><span class="line"><span class="regexp">  export default &#123;</span></span><br><span class="line"><span class="regexp">	data() &#123;</span></span><br><span class="line"><span class="regexp">		return &#123;</span></span><br><span class="line"><span class="regexp">			msg: 'Hello,Webpack'</span></span><br><span class="line"><span class="regexp">		&#125;;</span></span><br><span class="line"><span class="regexp">	&#125;</span></span><br><span class="line"><span class="regexp">  &#125;;</span></span><br><span class="line"><span class="regexp">&lt;/</span>script&gt;</span><br></pre></td></tr></table></figure></p>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">webpack vue</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2018/03/16/webpack_vue/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-reg" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -189,7 +419,7 @@
 <li>常用正则表达式1<a href="http://www.jb51.net/tools/regex.htm" target="_blank" rel="noopener">http://www.jb51.net/tools/regex.htm</a></li>
 <li>常用正则表达式2<a href="https://juejin.im/post/5aa23ee46fb9a028b86d9cf4" target="_blank" rel="noopener">https://juejin.im/post/5aa23ee46fb9a028b86d9cf4</a></li>
 </ul>
-<p>至少包含一个或多个 可以用 (?=.*[A-Z])<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[A-Z])/</span>  <span class="comment">// 至少包含一个大写字母</span></span><br></pre></td></tr></table></figure></p>
+<p><img src="./img/bg2.jpg" alt="image"><br>至少包含一个或多个 可以用 (?=.*[A-Z])<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[A-Z])/</span>  <span class="comment">// 至少包含一个大写字母</span></span><br></pre></td></tr></table></figure></p>
 <p>同时包含数字和小写字母，可以用(?=.<em>[0-9])(?=.</em>[a-z])来做。<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[0-9])(?=.*[a-z])/</span></span><br></pre></td></tr></table></figure></p>
 <p>匹配汉字(不完全)<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/[\u4e00-\u9fa5]/</span></span><br></pre></td></tr></table></figure></p>
 <p>省级地址码校验及测试程序如下：</p>
@@ -402,14 +632,14 @@
         <!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ -->
 <p><br></p>
 <h4 id="给html元素添加点击状态"><a href="#给html元素添加点击状态" class="headerlink" title="给html元素添加点击状态"></a>给html元素添加点击状态</h4><p>给元素添加伪类:active<br>css设置如下</p>
-<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-pseudo">:active</span> &#123;</span><br><span class="line">    background-color: #eee; // 设置自己需要的颜色</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-pseudo">:active</span> &#123;</span><br><span class="line">	background-color: #eee; // 设置自己需要的颜色</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>有些iOS和Android上的链接或者按钮被点击的时候都会忽略这个属性。为了使用这个active状态，你需要使用JavaScript给页面添加一个简单的事件:</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.body.addEventListener(<span class="string">'touchstart'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure>
 <h4 id="文字输入限制问题（输入完成后才做出判断）"><a href="#文字输入限制问题（输入完成后才做出判断）" class="headerlink" title="文字输入限制问题（输入完成后才做出判断）"></a>文字输入限制问题（输入完成后才做出判断）</h4><p>当输入汉字时必然会是非直接输入，需要我们点选才能正式输入。<br>当我们字数限制为16个字，需要实时检查是否到16字。输入文字时，当有非直接的文字输入时，监听keydown事件和input事件都会直接触发判断字数逻辑，会截断我们正在输入的文字。<br>解决办法：监听compositionend（当直接的文字输入时触发）这时，当没选中文字的时候不会进行字数判断。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'#input'</span>).on(<span class="string">'compositionend'</span>, () =&gt; &#123;</span><br><span class="line">    <span class="keyword">let</span> len = $(<span class="string">'#input'</span>).val().length;</span><br><span class="line">    <span class="keyword">if</span> (len &gt; <span class="number">5</span>) &#123;</span><br><span class="line">        <span class="comment">// 提示超出字数</span></span><br><span class="line">        $.toast().reset(<span class="string">'all'</span>);</span><br><span class="line">        $.toast(<span class="string">'不能超过5个字'</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
-<h4 id="判断滚动方向-pc"><a href="#判断滚动方向-pc" class="headerlink" title="判断滚动方向(pc)"></a>判断滚动方向(pc)</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">scrollFunc () &#123; <span class="comment">// 判断滚动方向</span></span><br><span class="line">    <span class="keyword">if</span> (<span class="keyword">typeof</span> scrollAction.x === <span class="string">'undefined'</span>) &#123;</span><br><span class="line">        scrollAction.x = <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">        scrollAction.y = <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">let</span> diffX = scrollAction.x - <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">    <span class="keyword">let</span> diffY = scrollAction.y - <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">    <span class="keyword">if</span> (diffX &lt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// Scroll right</span></span><br><span class="line">        <span class="comment">// scrollDirection = 'right';</span></span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffX &gt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// Scroll left</span></span><br><span class="line">        <span class="comment">// scrollDirection = 'left';</span></span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffY &lt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// Scroll down</span></span><br><span class="line">        <span class="comment">// scrollDirection = 'down';</span></span><br><span class="line">    &#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffY &gt; <span class="number">0</span>) &#123;</span><br><span class="line">        <span class="comment">// Scroll up</span></span><br><span class="line">        <span class="comment">// scrollDirection = 'up';</span></span><br><span class="line">    &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">        <span class="comment">// First scroll event</span></span><br><span class="line">        <span class="comment">// scrollDirection = 'noscroll';</span></span><br><span class="line">    &#125;</span><br><span class="line">    scrollAction.x = <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">    scrollAction.y = <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">调用</span><br><span class="line"><span class="built_in">window</span>.onscroll = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    scrollFunc();</span><br><span class="line">    <span class="comment">// 然后通过scrollDirection的值获取方向</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="滚动到底部的判断"><a href="#滚动到底部的判断" class="headerlink" title="滚动到底部的判断"></a>滚动到底部的判断</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (<span class="built_in">window</span>.pageYOffset + <span class="built_in">window</span>.innerHeight &gt;= <span class="built_in">document</span>.body.scrollHeight) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="string">'到底了'</span>);</span><br><span class="line">&#125;</span><br><span class="line">其中<span class="built_in">window</span>.pageYOffset为滚动条的坐标（距离顶部的距离） <span class="built_in">window</span>.innerHeight为屏幕的高度  <span class="built_in">document</span>.body.scrollHeight为网页内容的高度</span><br></pre></td></tr></table></figure>
-<h4 id="判断滑动方向（移动端）"><a href="#判断滑动方向（移动端）" class="headerlink" title="判断滑动方向（移动端）"></a>判断滑动方向（移动端）</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//返回角度</span></span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">GetSlideAngle</span>(<span class="params">dx, dy</span>) </span>&#123;</span><br><span class="line">		<span class="keyword">return</span> (<span class="built_in">Math</span>.atan2(dy, dx) * <span class="number">180</span>) / <span class="built_in">Math</span>.PI;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//根据起点和终点返回方向 up：向上，down：向下，left：向左，right：向右,0：未滑动</span></span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">GetSlideDirection</span>(<span class="params">startX, startY, endX, endY</span>) </span>&#123;</span><br><span class="line">		<span class="keyword">let</span> dy = startY - endY;</span><br><span class="line">		<span class="keyword">let</span> dx = endX - startX;</span><br><span class="line">		<span class="keyword">let</span> result = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">		<span class="comment">//如果滑动距离太短</span></span><br><span class="line">		<span class="keyword">if</span> (<span class="built_in">Math</span>.abs(dx) &lt; <span class="number">2</span> &amp;&amp; <span class="built_in">Math</span>.abs(dy) &lt; <span class="number">2</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> result;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">let</span> angle = GetSlideAngle(dx, dy);</span><br><span class="line">		<span class="keyword">if</span> (angle &gt;= <span class="number">-45</span> &amp;&amp; angle &lt; <span class="number">45</span>) &#123;</span><br><span class="line">			result = <span class="string">'right'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (angle &gt;= <span class="number">45</span> &amp;&amp; angle &lt; <span class="number">135</span>) &#123;</span><br><span class="line">			result = <span class="string">'up'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (angle &gt;= <span class="number">-135</span> &amp;&amp; angle &lt; <span class="number">-45</span>) &#123;</span><br><span class="line">			result = <span class="string">'down'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> ((angle &gt;= <span class="number">135</span> &amp;&amp; angle &lt;= <span class="number">180</span>) || (angle &gt;= <span class="number">-180</span> &amp;&amp; angle &lt; <span class="number">-135</span>)) &#123;</span><br><span class="line">			result = <span class="string">'left'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> result;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">handleSlide</span>(<span class="params">dir</span>) </span>&#123;</span><br><span class="line">		<span class="keyword">switch</span> (dir) &#123;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">				<span class="comment">// alert('没滑动');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'up'</span>:</span><br><span class="line">				<span class="comment">// alert('向上');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'down'</span>:</span><br><span class="line">				<span class="comment">// alert('向下');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'left'</span>:</span><br><span class="line">				<span class="comment">// alert('向左');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'right'</span>:</span><br><span class="line">				<span class="comment">// alert('向右');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">default</span>:</span><br><span class="line">				<span class="comment">// alert('nomove');</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//滑动处理</span></span><br><span class="line">	<span class="keyword">let</span> startX;</span><br><span class="line">	<span class="keyword">let</span> startY;</span><br><span class="line">	<span class="keyword">let</span> moveX;</span><br><span class="line">	<span class="keyword">let</span> moveY;</span><br><span class="line">	<span class="keyword">let</span> endX;</span><br><span class="line">	<span class="keyword">let</span> endY;</span><br><span class="line">	<span class="built_in">document</span>.addEventListener(<span class="string">'touchstart'</span>, (ev) =&gt; &#123;</span><br><span class="line">		startX = ev.touches[<span class="number">0</span>].pageX;</span><br><span class="line">		startY = ev.touches[<span class="number">0</span>].pageY;</span><br><span class="line">	&#125;, <span class="literal">false</span>);</span><br><span class="line">	<span class="built_in">document</span>.addEventListener(<span class="string">'touchmove'</span>, (ev) =&gt; &#123;</span><br><span class="line">		moveX = ev.changedTouches[<span class="number">0</span>].pageX;</span><br><span class="line">		moveY = ev.changedTouches[<span class="number">0</span>].pageY;</span><br><span class="line">		<span class="keyword">let</span> direction = GetSlideDirection(startX, startY, moveX, moveY);</span><br><span class="line">		handleSlide(direction);</span><br><span class="line">	&#125;, <span class="literal">false</span>);</span><br><span class="line">	<span class="built_in">document</span>.addEventListener(<span class="string">'touchend'</span>, (ev) =&gt; &#123;</span><br><span class="line">		endX = ev.changedTouches[<span class="number">0</span>].pageX;</span><br><span class="line">		endY = ev.changedTouches[<span class="number">0</span>].pageY;</span><br><span class="line">		<span class="keyword">let</span> direction = GetSlideDirection(startX, startY, endX, endY);</span><br><span class="line">		handleSlide(direction);</span><br><span class="line">	&#125;, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'#input'</span>).on(<span class="string">'compositionend'</span>, () =&gt; &#123;</span><br><span class="line">	<span class="keyword">let</span> len = $(<span class="string">'#input'</span>).val().length;</span><br><span class="line">	<span class="keyword">if</span> (len &gt; <span class="number">5</span>) &#123;</span><br><span class="line">		<span class="comment">// 提示超出字数</span></span><br><span class="line">		$.toast().reset(<span class="string">'all'</span>);</span><br><span class="line">		$.toast(<span class="string">'不能超过5个字'</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<h4 id="判断滚动方向-pc"><a href="#判断滚动方向-pc" class="headerlink" title="判断滚动方向(pc)"></a>判断滚动方向(pc)</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">scrollFunc () &#123; <span class="comment">// 判断滚动方向</span></span><br><span class="line">	<span class="keyword">if</span> (<span class="keyword">typeof</span> scrollAction.x === <span class="string">'undefined'</span>) &#123;</span><br><span class="line">		scrollAction.x = <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">		scrollAction.y = <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">let</span> diffX = scrollAction.x - <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">	<span class="keyword">let</span> diffY = scrollAction.y - <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">	<span class="keyword">if</span> (diffX &lt; <span class="number">0</span>) &#123;</span><br><span class="line">		<span class="comment">// Scroll right</span></span><br><span class="line">		<span class="comment">// scrollDirection = 'right';</span></span><br><span class="line">	&#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffX &gt; <span class="number">0</span>) &#123;</span><br><span class="line">		<span class="comment">// Scroll left</span></span><br><span class="line">		<span class="comment">// scrollDirection = 'left';</span></span><br><span class="line">	&#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffY &lt; <span class="number">0</span>) &#123;</span><br><span class="line">		<span class="comment">// Scroll down</span></span><br><span class="line">		<span class="comment">// scrollDirection = 'down';</span></span><br><span class="line">	&#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffY &gt; <span class="number">0</span>) &#123;</span><br><span class="line">		<span class="comment">// Scroll up</span></span><br><span class="line">		<span class="comment">// scrollDirection = 'up';</span></span><br><span class="line">	&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">		<span class="comment">// First scroll event</span></span><br><span class="line">		<span class="comment">// scrollDirection = 'noscroll';</span></span><br><span class="line">	&#125;</span><br><span class="line">	scrollAction.x = <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">	scrollAction.y = <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">调用</span><br><span class="line"><span class="built_in">window</span>.onscroll = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">	scrollFunc();</span><br><span class="line">	<span class="comment">// 然后通过scrollDirection的值获取方向</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="滚动到底部的判断-在滚动事件中判断"><a href="#滚动到底部的判断-在滚动事件中判断" class="headerlink" title="滚动到底部的判断(在滚动事件中判断)"></a>滚动到底部的判断(在滚动事件中判断)</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (<span class="built_in">window</span>.pageYOffset + <span class="built_in">window</span>.innerHeight &gt;= <span class="built_in">document</span>.body.scrollHeight) &#123;</span><br><span class="line">	<span class="built_in">console</span>.log(<span class="string">'到底了'</span>);</span><br><span class="line">&#125;</span><br><span class="line">其中<span class="built_in">window</span>.pageYOffset为滚动条的坐标（距离顶部的距离） <span class="built_in">window</span>.innerHeight为屏幕的高度  <span class="built_in">document</span>.body.scrollHeight为网页内容的高度</span><br></pre></td></tr></table></figure>
+<h4 id="判断滑动方向（移动端）"><a href="#判断滑动方向（移动端）" class="headerlink" title="判断滑动方向（移动端）"></a>判断滑动方向（移动端）</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//返回角度</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetSlideAngle</span>(<span class="params">dx, dy</span>) </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> (<span class="built_in">Math</span>.atan2(dy, dx) * <span class="number">180</span>) / <span class="built_in">Math</span>.PI;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">	<span class="comment">//根据起点和终点返回方向 up：向上，down：向下，left：向左，right：向右,0：未滑动</span></span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">GetSlideDirection</span>(<span class="params">startX, startY, endX, endY</span>) </span>&#123;</span><br><span class="line">		<span class="keyword">let</span> dy = startY - endY;</span><br><span class="line">		<span class="keyword">let</span> dx = endX - startX;</span><br><span class="line">		<span class="keyword">let</span> result = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line">		<span class="comment">//如果滑动距离太短</span></span><br><span class="line">		<span class="keyword">if</span> (<span class="built_in">Math</span>.abs(dx) &lt; <span class="number">2</span> &amp;&amp; <span class="built_in">Math</span>.abs(dy) &lt; <span class="number">2</span>) &#123;</span><br><span class="line">			<span class="keyword">return</span> result;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">let</span> angle = GetSlideAngle(dx, dy);</span><br><span class="line">		<span class="keyword">if</span> (angle &gt;= <span class="number">-45</span> &amp;&amp; angle &lt; <span class="number">45</span>) &#123;</span><br><span class="line">			result = <span class="string">'right'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (angle &gt;= <span class="number">45</span> &amp;&amp; angle &lt; <span class="number">135</span>) &#123;</span><br><span class="line">			result = <span class="string">'up'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> (angle &gt;= <span class="number">-135</span> &amp;&amp; angle &lt; <span class="number">-45</span>) &#123;</span><br><span class="line">			result = <span class="string">'down'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span> ((angle &gt;= <span class="number">135</span> &amp;&amp; angle &lt;= <span class="number">180</span>) || (angle &gt;= <span class="number">-180</span> &amp;&amp; angle &lt; <span class="number">-135</span>)) &#123;</span><br><span class="line">			result = <span class="string">'left'</span>;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> result;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="function"><span class="keyword">function</span> <span class="title">handleSlide</span>(<span class="params">dir</span>) </span>&#123;</span><br><span class="line">		<span class="keyword">switch</span> (dir) &#123;</span><br><span class="line">			<span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">				<span class="comment">// alert('没滑动');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'up'</span>:</span><br><span class="line">				<span class="comment">// alert('向上');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'down'</span>:</span><br><span class="line">				<span class="comment">// alert('向下');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'left'</span>:</span><br><span class="line">				<span class="comment">// alert('向左');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">case</span> <span class="string">'right'</span>:</span><br><span class="line">				<span class="comment">// alert('向右');</span></span><br><span class="line">				<span class="keyword">break</span>;</span><br><span class="line">			<span class="keyword">default</span>:</span><br><span class="line">				<span class="comment">// alert('nomove');</span></span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="comment">//滑动处理</span></span><br><span class="line">	<span class="keyword">let</span> startX;</span><br><span class="line">	<span class="keyword">let</span> startY;</span><br><span class="line">	<span class="keyword">let</span> moveX;</span><br><span class="line">	<span class="keyword">let</span> moveY;</span><br><span class="line">	<span class="keyword">let</span> endX;</span><br><span class="line">	<span class="keyword">let</span> endY;</span><br><span class="line">	<span class="built_in">document</span>.addEventListener(<span class="string">'touchstart'</span>, (ev) =&gt; &#123;</span><br><span class="line">		startX = ev.touches[<span class="number">0</span>].pageX;</span><br><span class="line">		startY = ev.touches[<span class="number">0</span>].pageY;</span><br><span class="line">	&#125;, <span class="literal">false</span>);</span><br><span class="line">	<span class="built_in">document</span>.addEventListener(<span class="string">'touchmove'</span>, (ev) =&gt; &#123;</span><br><span class="line">		moveX = ev.changedTouches[<span class="number">0</span>].pageX;</span><br><span class="line">		moveY = ev.changedTouches[<span class="number">0</span>].pageY;</span><br><span class="line">		<span class="keyword">let</span> direction = GetSlideDirection(startX, startY, moveX, moveY);</span><br><span class="line">		handleSlide(direction);</span><br><span class="line">	&#125;, <span class="literal">false</span>);</span><br><span class="line">	<span class="built_in">document</span>.addEventListener(<span class="string">'touchend'</span>, (ev) =&gt; &#123;</span><br><span class="line">		endX = ev.changedTouches[<span class="number">0</span>].pageX;</span><br><span class="line">		endY = ev.changedTouches[<span class="number">0</span>].pageY;</span><br><span class="line">		<span class="keyword">let</span> direction = GetSlideDirection(startX, startY, endX, endY);</span><br><span class="line">		handleSlide(direction);</span><br><span class="line">	&#125;, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>
 
       
 
@@ -663,171 +893,10 @@
 
 
   
-    <article id="post-test" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/09/test/">Test</a>
-    </h1>
-  
-
-        
-        <a href="/2018/02/09/test/" class="archive-article-date">
-  	<time datetime="2018-02-09T03:29:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-09</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to my blog!<br>推荐一片文章<a href="http://wycheng.me/2017/05/18/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%B0%8F%E7%99%BD%E7%AF%87%EF%BC%89/" target="_blank" rel="noopener">个人博客</a>这里可以学到hexo+github搭建个人博客的方式</p>
-<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><h1 id="1级标题"><a href="#1级标题" class="headerlink" title="1级标题"></a>1级标题</h1><h2 id="2级标题"><a href="#2级标题" class="headerlink" title="2级标题"></a>2级标题</h2><h3 id="3级标题"><a href="#3级标题" class="headerlink" title="3级标题"></a>3级标题</h3><h4 id="4级标题"><a href="#4级标题" class="headerlink" title="4级标题"></a>4级标题</h4><h5 id="5级标题"><a href="#5级标题" class="headerlink" title="5级标题"></a>5级标题</h5><h6 id="6级标题"><a href="#6级标题" class="headerlink" title="6级标题"></a>6级标题</h6><h3 id="加粗文本"><a href="#加粗文本" class="headerlink" title="加粗文本"></a>加粗文本</h3><p><strong>文本</strong><br><strong>加粗</strong></p>
-<h3 id="斜体文本"><a href="#斜体文本" class="headerlink" title="斜体文本"></a>斜体文本</h3><p><em>文本</em><br><em>斜体</em></p>
-<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
-<li>red</li>
-<li>green</li>
-</ul>
-<ul>
-<li>yellow</li>
-<li>gray</li>
-</ul>
-<ul>
-<li>blue</li>
-<li>orange</li>
-</ul>
-<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
-<li>red</li>
-<li>green</li>
-</ol>
-<h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><!-- 图片：![图片文本 可不写](http://b.cqyouloft.com/labaFestival2017/img/share.png) -->
-<p>图片：<img src="图片url" alt="图片文本"><br>链接： <a href="链接url">链接文本</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">测试</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/02/09/test/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2018/02/09/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2018/02/09/hello-world/" class="archive-article-date">
-  	<time datetime="2018-02-09T02:45:46.878Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-02-09</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2018/02/09/hello-world/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
+    <nav id="page-nav">
+      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
+    </nav>
   
 
 
@@ -925,10 +994,6 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color1">前端、h5</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">program</a>
               </li>
              
@@ -938,6 +1003,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">测试</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">webpack vue</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">webpack react</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">webpack typescript</a>
               </li>
             
             <div class="clearfix"></div>
