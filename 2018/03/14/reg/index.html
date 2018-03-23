@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8" />
+
+    
+
+    
+
+    <title>js正则 | ZJ&#39;s Blog</title>
+    <meta name="author" content="ZJ" />
+    <meta name="version" content="1.0.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="
+推荐网址1https://juejin.im/entry/593a413a5c497d006b6e9aee
+推荐网址2https://github.com/jawil/blog/issues/20
+常用正则表达式1http://www.jb51.net/tools/regex.htm
+常用正则表达式2https://juejin.im/post/5aa23ee46fb9a028b86d9cf4
+
+至少包含一个或多个 可以用 (?=.*[A-Z])    1let reg = /(?=.*[A-" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+    <meta name="baidu-site-verification" content="F0CXvmUgA9" />
+
+    
+    
+
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="app">
+        <header class="header clearfix">
+    <div id="nav" class="nav">
+    <button id="open-panel" class="open-panel"><i class="icon-library"></i></button>
+
+    <nav class="nav-inner">
+
+        
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/">首页</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/categories/front-end">前端</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/back-end">后端</a>
+        </li>
+        
+        
+        
+        <li class="nav-item nav-item-tag">
+            <a id="nav-tag" class="nav-link" href="#">标签</a>
+            <div id="nav-tags" class="nav-tag-wrap">
+                <i class="nav-tag-arrow"></i>
+                
+  <div class="widget-wrap">
+    <h3 class="widget-title">
+        <i class="icon-tag vm"></i>
+        <span class="vm">Tags</span>
+    </h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/program/">program</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/react-es6-文档/">react es6 文档</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-react/">webpack react</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-typescript/">webpack typescript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-vue/">webpack vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a></li></ul>
+    </div>
+  </div>
+
+
+            </div>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/archives">归档</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/atom.xml">订阅</a>
+        </li>
+        
+        
+        
+        <li class="nav-item">
+            <a class="nav-link" href="/about">关于</a>
+        </li>
+        
+        
+        
+
+    </nav>
+</div>
+
+    <aside id="aside" class="aside">
+    <div id="aside-mask" class="aside-mask"></div>
+    <div id="aside-inner" class="aside-inner">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit"><i class="icon-search-stroke"></i></button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+
+        
+        
+        
+        
+
+        
+        <div class="author-meta">
+            
+            <div class="author-avatar">
+                <a href="/">
+                    <img src="/images/bg2.jpg" title="Sanonz">
+                </a>
+            </div>
+            
+            <div class="author-name">ZJ</div>
+            <div class="author-work">Web Developer &amp; Designer</div>
+            <div class="author-location">
+                <i class="icon-location vm"></i>
+                <span class="vm">Shenzhen, China</span>
+            </div>
+            
+            <div class="author-thread-wrap">
+                <div class="author-threads clearfix">
+                    
+                    <a class="thread-item" href="https://github.com/18883846209" target="_blank" rel="noopener"><i class="icon-github"></i></a>
+                    
+                    
+                    <a class="thread-item" href="http://m.timegoto.com/user/1" target="_blank" rel="noopener"><i class="icon-circle-more"></i></a>
+                    
+                    
+                    <a class="thread-item" href="https://twitter.com/sanonze" target="_blank" rel="noopener"><i class="icon-twitter"></i></a>
+                    
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+</aside>
+
+</header>
+
+        <div id="content" class="content"><article class="article" itemscope itemprop="blogPost">
+    
+    <header class="article-header">
+        
+        <h1 itemprop="name">
+            js正则
+        </h1>
+        
+        <div class="article-meta clearfix">
+            <a class="article-date" href="/2018/03/14/reg/">
+    
+    <i class="icon-calendar"></i>
+    
+    <time datetime="2018-03-14T06:13:19.330Z" itemprop="datePublished">2018-03-14</time>
+</a>
+
+            
+<div class="article-tag-list">
+    <i class="icon-tag"></i>
+    <a class="article-tag-link" href="/tags/javascript/">javascript</a>
+</div>
+
+
+        </div>
+    </header>
+    
+    <section class="article-body markdown-body">
+        
+        <ul>
+<li>推荐网址1<a href="https://juejin.im/entry/593a413a5c497d006b6e9aee" target="_blank" rel="noopener">https://juejin.im/entry/593a413a5c497d006b6e9aee</a></li>
+<li>推荐网址2<a href="https://github.com/jawil/blog/issues/20" target="_blank" rel="noopener">https://github.com/jawil/blog/issues/20</a></li>
+<li>常用正则表达式1<a href="http://www.jb51.net/tools/regex.htm" target="_blank" rel="noopener">http://www.jb51.net/tools/regex.htm</a></li>
+<li>常用正则表达式2<a href="https://juejin.im/post/5aa23ee46fb9a028b86d9cf4" target="_blank" rel="noopener">https://juejin.im/post/5aa23ee46fb9a028b86d9cf4</a></li>
+</ul>
+<p><img src="./img/bg2.jpg" alt="image"><br>至少包含一个或多个 可以用 (?=.*[A-Z])<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[A-Z])/</span>  <span class="comment">// 至少包含一个大写字母</span></span><br></pre></td></tr></table></figure></p>
+<p>同时包含数字和小写字母，可以用(?=.<em>[0-9])(?=.</em>[a-z])来做。<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[0-9])(?=.*[a-z])/</span></span><br></pre></td></tr></table></figure></p>
+<p>匹配汉字(不完全)<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/[\u4e00-\u9fa5]/</span></span><br></pre></td></tr></table></figure></p>
+<p>省级地址码校验及测试程序如下：</p>
+<pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> checkProv = <span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> pattern = <span class="regexp">/^[1-9][0-9]/</span>;</span><br><span class="line">    <span class="keyword">let</span> provs = &#123;<span class="number">11</span>:<span class="string">"北京"</span>,<span class="number">12</span>:<span class="string">"天津"</span>,<span class="number">13</span>:<span class="string">"河北"</span>,<span class="number">14</span>:<span class="string">"山西"</span>,<span class="number">15</span>:<span class="string">"内蒙古"</span>,<span class="number">21</span>:<span class="string">"辽宁"</span>,<span class="number">22</span>:<span class="string">"吉林"</span>,<span class="number">23</span>:<span class="string">"黑龙江 "</span>,<span class="number">31</span>:<span class="string">"上海"</span>,<span class="number">32</span>:<span class="string">"江苏"</span>,<span class="number">33</span>:<span class="string">"浙江"</span>,<span class="number">34</span>:<span class="string">"安徽"</span>,<span class="number">35</span>:<span class="string">"福建"</span>,<span class="number">36</span>:<span class="string">"江西"</span>,<span class="number">37</span>:<span class="string">"山东"</span>,<span class="number">41</span>:<span class="string">"河南"</span>,<span class="number">42</span>:<span class="string">"湖北 "</span>,<span class="number">43</span>:<span class="string">"湖南"</span>,<span class="number">44</span>:<span class="string">"广东"</span>,<span class="number">45</span>:<span class="string">"广西"</span>,<span class="number">46</span>:<span class="string">"海南"</span>,<span class="number">50</span>:<span class="string">"重庆"</span>,<span class="number">51</span>:<span class="string">"四川"</span>,<span class="number">52</span>:<span class="string">"贵州"</span>,<span class="number">53</span>:<span class="string">"云南"</span>,<span class="number">54</span>:<span class="string">"西藏 "</span>,<span class="number">61</span>:<span class="string">"陕西"</span>,<span class="number">62</span>:<span class="string">"甘肃"</span>,<span class="number">63</span>:<span class="string">"青海"</span>,<span class="number">64</span>:<span class="string">"宁夏"</span>,<span class="number">65</span>:<span class="string">"新疆"</span>,<span class="number">71</span>:<span class="string">"台湾"</span>,<span class="number">81</span>:<span class="string">"香港"</span>,<span class="number">82</span>:<span class="string">"澳门"</span>&#125;;</span><br><span class="line">    <span class="keyword">if</span>(pattern.test(val)) &#123;</span><br><span class="line">        <span class="keyword">if</span>(provs[val]) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出 true，37是山东</span></span><br><span class="line"><span class="built_in">console</span>.log(checkProv(<span class="number">37</span>));</span><br><span class="line"><span class="comment">//输出 false，16不存在</span></span><br><span class="line"><span class="built_in">console</span>.log(checkProv(<span class="number">16</span>));</span><br></pre></td></tr></table></figure>
+</code></pre><p>出生日期码的校验:</p>
+<pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> checkDate = <span class="function">(<span class="params">val</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> pattern = <span class="regexp">/^(18|19|20)\d&#123;2&#125;((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)$/</span>;</span><br><span class="line">    <span class="keyword">let</span> value = val.toString();</span><br><span class="line">    <span class="keyword">if</span> (pattern.test(value)) &#123;</span><br><span class="line">        <span class="keyword">let</span> year = value.substring(<span class="number">0</span>, <span class="number">4</span>);</span><br><span class="line">        <span class="keyword">let</span> month = value.substring(<span class="number">4</span>, <span class="number">6</span>);</span><br><span class="line">        <span class="keyword">let</span> date = value.substring(<span class="number">6</span>, <span class="number">8</span>);</span><br><span class="line">        <span class="keyword">let</span> date2 = <span class="keyword">new</span> <span class="built_in">Date</span>(year + <span class="string">''</span> + month + <span class="string">''</span> + date);</span><br><span class="line">        <span class="keyword">if</span> (date2 &amp;&amp; date2.getMonth() === (<span class="built_in">parseInt</span>(month) - <span class="number">1</span>)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//输出 true</span></span><br><span class="line"><span class="built_in">console</span>.log(checkDate(<span class="string">"20180212"</span>));</span><br><span class="line"><span class="comment">//输出 false 2月没有31日</span></span><br><span class="line"><span class="built_in">console</span>.log(checkDate(<span class="string">"20180231"</span>));</span><br></pre></td></tr></table></figure>
+</code></pre><p>校验码计算程序及测试见如下代码：</p>
+<pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> checkCode = <span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> p = <span class="regexp">/^[1-9]\d&#123;5&#125;(18|19|20)\d&#123;2&#125;((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\d&#123;3&#125;[0-9Xx]$/</span>;</span><br><span class="line">    <span class="keyword">let</span> factor = [<span class="number">7</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">6</span>, <span class="number">3</span>, <span class="number">7</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">4</span>, <span class="number">2</span>];</span><br><span class="line">    <span class="keyword">let</span> parity = [<span class="number">1</span>, <span class="number">0</span>, <span class="string">'X'</span>, <span class="number">9</span>, <span class="number">8</span>, <span class="number">7</span>, <span class="number">6</span>, <span class="number">5</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">2</span>];</span><br><span class="line">    <span class="keyword">let</span> code = val.toString().substring(<span class="number">17</span>);</span><br><span class="line">    <span class="keyword">if</span>(p.test(val)) &#123;</span><br><span class="line">        <span class="keyword">let</span> sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="number">17</span>; i += <span class="number">1</span>) &#123;</span><br><span class="line">            sum += val[i] * factor[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(parity[sum % <span class="number">11</span>] === code.toUpperCase()) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 输出 true， 校验码相符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkCode(<span class="string">"11010519491231002X"</span>));</span><br><span class="line"><span class="comment">// 输出 false， 校验码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkCode(<span class="string">"110105194912310021"</span>));</span><br></pre></td></tr></table></figure>
+</code></pre><p>身份证号码整体校验代码：</p>
+<pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> checkID = <span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> value = val.toString();</span><br><span class="line">    <span class="keyword">if</span>(checkCode(value)) &#123;</span><br><span class="line">        <span class="keyword">var</span> date = value.substring(<span class="number">6</span>,<span class="number">14</span>);</span><br><span class="line">        <span class="keyword">if</span>(checkDate(date)) &#123;</span><br><span class="line">            <span class="keyword">if</span>(checkProv(value.substring(<span class="number">0</span>,<span class="number">2</span>))) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出 true</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"11010519491231002X"</span>));</span><br><span class="line"><span class="comment">//输出 false，校验码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"110105194912310021"</span>));</span><br><span class="line"><span class="comment">//输出 false，日期码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"110105194902310026"</span>));</span><br><span class="line"><span class="comment">//输出 false，地区码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"160105194912310029"</span>));</span><br></pre></td></tr></table></figure>
+</code></pre>
+        
+    </section>
+</article>
+
+
+
+<div class="comments">
+    <div id="disqus_thread">
+        <p class="comment-tips">国内查看评论需要代理~</p>
+    </div>
+    <script>
+    window.disqus_config = function () {
+        this.language = 'zh';
+        this.page.url = 'http://yoursite.com/2018/03/14/reg/';
+        this.page.title = 'js正则';
+        this.page.identifier = '2018/03/14/reg/';
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://name.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+</div>
+        <footer class="footer">
+    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, Theme by <a href="https://github.com/sanonz/hexo-theme-concise" target="_blank">Concise</a>
+</footer>
+
+<script type="text/javascript" src="//s13.cnzz.com/z_stat.php?id=1234567890&amp;web_id=1234567890"></script>
+
+
+    </div>
+
+    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+    
+    <script type="text/javascript" src="/js/scrollspy.min.js"></script>
+    
+    <script type="text/javascript">
+        $(function() {
+            var nodes = {
+                nav: $('#nav'),
+                aside: $('#aside'),
+                navTags: $('#nav-tags')
+            };
+
+            $('#open-panel, #aside-mask').on('click', function() {
+                nodes.aside.toggleClass('panel-show');
+            });
+            $('#nav-tag').on('click', function(event) {
+                event.preventDefault();console.log(nodes.navTags.attr('class'))
+                nodes.navTags.toggleClass('tag-show');console.log(nodes.navTags.attr('class'))
+            })/*.hover(function() {
+                nodes.navTags.addClass('tag-show');
+            }, function() {
+                nodes.navTags.removeClass('tag-show');
+            });*/
+
+            
+            $(document.body).scrollspy({target: '#aside-inner'});
+            
+        });
+    </script>
+
+</body>
+</html>
