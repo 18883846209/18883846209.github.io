@@ -1,356 +1,744 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang=zh>
 <head>
-    <meta charset="UTF-8" />
-
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-transform" />
+  <meta http-equiv="Cache-Control" content="no-siteapp" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,email=no,adress=no">
+  <!-- Color theme for statusbar -->
+  <meta name="theme-color" content="#000000" />
+  <!-- 强制页面在当前窗口以独立页面显示,防止别人在框架里调用页面 -->
+  <meta http-equiv="window-target" content="_top" />
+  
+  
+  <title>Hexo</title>
+  <meta name="description" content="个人博客">
+<meta property="og:type" content="website">
+<meta property="og:title" content="ZJ&#39;s Blog">
+<meta property="og:url" content="http://yoursite.com/page/2/index.html">
+<meta property="og:site_name" content="ZJ&#39;s Blog">
+<meta property="og:description" content="个人博客">
+<meta property="og:locale" content="zh-cn">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ZJ&#39;s Blog">
+<meta name="twitter:description" content="个人博客">
+  <!-- Canonical links -->
+  <link rel="canonical" href="http://yoursite.com/page/2/index.html">
+  
+    <link rel="alternate" href="/atom.xml" title="ZJ&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png" type="image/x-icon">
+  
+  <!-- font-awesome CSS -->
+  <!-- <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="/css/style.css">
+  
+    
     
 
-    
-
-    <title>ZJ&#39;s Blog</title>
-    <meta name="author" content="ZJ" />
-    <meta name="version" content="1.0.0" />
-    <meta name="keywords" content="" />
-    <meta name="description" content="个人博客" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
-    <meta name="baidu-site-verification" content="F0CXvmUgA9" />
-
-    
-    
-
-    <link rel="stylesheet" href="/css/style.css">
 </head>
-<body>
 
-    <div class="app">
-        <header class="header clearfix">
-    <div id="nav" class="nav">
-    <button id="open-panel" class="open-panel"><i class="icon-library"></i></button>
 
-    <nav class="nav-inner">
+<body class="main-center" itemscope itemtype="http://schema.org/WebPage">
+  <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+  <div class="slimContent">
+    <div class="navbar-header">
+      
+      
+      <div class="profile-block text-center">
+        <a id="avatar" href="https://github.com/18883846209" target="_blank">
+          <img class="img-circle img-rotate" src="/images/avatar.jpg" width="200" height="200">
+        </a>
+        <h2 id="name" class="hidden-xs hidden-sm">ZJ</h2>
+        <h3 id="title" class="hidden-xs hidden-sm hidden-md">Web Developer</h3>
+        <small id="location" class="text-muted hidden-xs hidden-sm"><i class="icon icon-map-marker"></i> ChongQing, China</small>
+      </div>
+      
+      <div class="search" id="search-form-wrap">
 
+    <form class="search-form sidebar-form">
+        <div class="input-group">
+            <input type="text" class="search-form-input form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button type="submit" class="search-form-submit btn btn-flat" onclick="return false;"><i class="icon icon-search"></i></button>
+            </span>
+        </div>
+    </form>
+    <div class="ins-search">
+  <div class="ins-search-mask"></div>
+  <div class="ins-search-container">
+    <div class="ins-input-wrapper">
+      <input type="text" class="ins-search-input" placeholder="Type something..." x-webkit-speech />
+      <button type="button" class="close ins-close ins-selectable" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    </div>
+    <div class="ins-section-wrapper">
+      <div class="ins-section-container"></div>
+    </div>
+  </div>
+</div>
+
+
+</div>
+      <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <nav id="main-navbar" class="collapse navbar-collapse" itemscope itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+      <ul class="nav navbar-nav main-nav">
         
         
-        <li class="nav-item active">
-            <a class="nav-link" href="/">首页</a>
+        
+        <li class="menu-item menu-item-home">
+          <a href="/.">
+            
+            <i class="icon icon-home-fill"></i>
+            
+            <span class="menu-title">Home</span>
+          </a>
         </li>
         
         
         
-        <li class="nav-item">
-            <a class="nav-link" href="/categories/front-end">前端</a>
+        <li class="menu-item menu-item-archives">
+          <a href="/archives">
+            
+            <i class="icon icon-archives-fill"></i>
+            
+            <span class="menu-title">Archives</span>
+          </a>
         </li>
         
         
         
-        <li class="nav-item">
-            <a class="nav-link" href="/back-end">后端</a>
+        <li class="menu-item menu-item-categories">
+          <a href="/categories">
+            
+            <i class="icon icon-folder"></i>
+            
+            <span class="menu-title">Categories</span>
+          </a>
         </li>
         
         
         
-        <li class="nav-item nav-item-tag">
-            <a id="nav-tag" class="nav-link" href="#">标签</a>
-            <div id="nav-tags" class="nav-tag-wrap">
-                <i class="nav-tag-arrow"></i>
-                
-  <div class="widget-wrap">
-    <h3 class="widget-title">
-        <i class="icon-tag vm"></i>
-        <span class="vm">Tags</span>
-    </h3>
-    <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/program/">program</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/react-es6-文档/">react es6 文档</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-react/">webpack react</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-typescript/">webpack typescript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-vue/">webpack vue</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a></li></ul>
+        <li class="menu-item menu-item-tags">
+          <a href="/tags">
+            
+            <i class="icon icon-tags"></i>
+            
+            <span class="menu-title">Tags</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-repository">
+          <a href="/repository">
+            
+            <i class="icon icon-project"></i>
+            
+            <span class="menu-title">Repository</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-books">
+          <a href="/books">
+            
+            <i class="icon icon-book-fill"></i>
+            
+            <span class="menu-title">Books</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-links">
+          <a href="/links">
+            
+            <i class="icon icon-friendship"></i>
+            
+            <span class="menu-title">Links</span>
+          </a>
+        </li>
+        
+        
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about">
+            
+            <i class="icon icon-cup-fill"></i>
+            
+            <span class="menu-title">About</span>
+          </a>
+        </li>
+        
+      </ul>
+      
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/18883846209" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    </nav>
+  </div>
+</header>
+
+  
+    <aside class="sidebar" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    
+      <div class="widget">
+    <h3 class="widget-title">Board</h3>
+    <div class="widget-body">
+        <div id="board">
+            
+            <p>您好，您是第<span id="busuanzi_value_site_uv">0</span>位访客</p>
+            
+            <div class="content">
+                <p>欢迎交流与分享经验!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+      
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget-body">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/program/">program</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/react-es6-文档/">react es6 文档</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-react/">webpack react</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-typescript/">webpack typescript</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/webpack-vue/">webpack vue</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/测试/">测试</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
 
-            </div>
-        </li>
-        
-        
-        
-        <li class="nav-item">
-            <a class="nav-link" href="/archives">归档</a>
-        </li>
-        
-        
-        
-        <li class="nav-item">
-            <a class="nav-link" href="/atom.xml">订阅</a>
-        </li>
-        
-        
-        
-        <li class="nav-item">
-            <a class="nav-link" href="/about">关于</a>
-        </li>
-        
-        
-        
-
-    </nav>
-</div>
-
-    <aside id="aside" class="aside">
-    <div id="aside-mask" class="aside-mask"></div>
-    <div id="aside-inner" class="aside-inner">
-        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit"><i class="icon-search-stroke"></i></button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-
-        
-        
-
-        
-        <div class="author-meta">
-            
-            <div class="author-avatar">
-                <a href="/">
-                    <img src="/images/bg2.jpg" title="Sanonz">
-                </a>
-            </div>
-            
-            <div class="author-name">ZJ</div>
-            <div class="author-work">Web Developer &amp; Designer</div>
-            <div class="author-location">
-                <i class="icon-location vm"></i>
-                <span class="vm">Shenzhen, China</span>
-            </div>
-            
-            <div class="author-thread-wrap">
-                <div class="author-threads clearfix">
-                    
-                    <a class="thread-item" href="https://github.com/18883846209" target="_blank" rel="noopener"><i class="icon-github"></i></a>
-                    
-                    
-                    <a class="thread-item" href="http://m.timegoto.com/user/1" target="_blank" rel="noopener"><i class="icon-circle-more"></i></a>
-                    
-                    
-                    <a class="thread-item" href="https://twitter.com/sanonze" target="_blank" rel="noopener"><i class="icon-twitter"></i></a>
-                    
-                </div>
-            </div>
-            
-        </div>
-        
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget-body tagcloud">
+      <a href="/tags/javascript/" style="font-size: 13px;">javascript</a> <a href="/tags/program/" style="font-size: 13px;">program</a> <a href="/tags/react-es6-文档/" style="font-size: 13px;">react es6 文档</a> <a href="/tags/webpack-react/" style="font-size: 13px;">webpack react</a> <a href="/tags/webpack-typescript/" style="font-size: 13px;">webpack typescript</a> <a href="/tags/webpack-vue/" style="font-size: 13px;">webpack vue</a> <a href="/tags/感悟/" style="font-size: 14px;">感悟</a> <a href="/tags/测试/" style="font-size: 13px;">测试</a>
     </div>
+  </div>
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Archive</h3>
+    <div class="widget-body">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">三月 2018</a><span class="archive-list-count">13</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/02/">二月 2018</a><span class="archive-list-count">8</span></li></ul>
+    </div>
+  </div>
+
+
+    
+      
+  <div class="widget">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget-body">
+      <ul class="recent-post-list list-unstyled no-thumbnail">
+        
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2018/03/23/repository/index/" class="title">Repositories</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-03-23T07:32:33.821Z" itemprop="datePublished">2018-03-23</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2018/03/23/tags/index/" class="title">标签</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-03-23T07:32:33.821Z" itemprop="datePublished">2018-03-23</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2018/03/23/categories/index/" class="title">分类</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-03-23T07:32:33.820Z" itemprop="datePublished">2018-03-23</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2018/03/23/links/index/" class="title">友情链接</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-03-23T07:32:33.820Z" itemprop="datePublished">2018-03-23</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2018/03/23/about/index/" class="title">关于</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2018-03-23T07:32:33.819Z" itemprop="datePublished">2018-03-23</time>
+              </p>
+            </div>
+          </li>
+          
+      </ul>
+    </div>
+  </div>
+  
+
+    
+  </div>
 </aside>
 
-</header>
-
-        <div id="content" class="content">
-    <article class="article" itemscope itemprop="blogPost">
+  
+  <main class="main" role="main">
+  
+  <div class="content article-list">
     
-    <header class="article-header">
-        
-        <h1 itemprop="name">
-            <a href="/2018/02/12/todo/">web小提示</a>
-        </h1>
-        
-        <div class="article-meta clearfix">
-            <a class="article-date" href="/2018/02/12/todo/">
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
     
-    <i class="icon-calendar"></i>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/16/webpack_react/">一些react+webpack基础开发配置</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/03/16/webpack_react/" class="article-date">
+	  <time datetime="2018-03-16T06:05:11.888Z" itemprop="datePublished">3月 16</time>
+	</a>
+</span>
     
-    <time datetime="2018-02-12T02:54:52.266Z" itemprop="datePublished">2018-02-12</time>
-</a>
-
-            
-
-        </div>
-    </header>
     
-    <section class="article-body markdown-body">
-        
-        <!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ -->
-<p><br></p>
-<h3 id="webpack的一些问题"><a href="#webpack的一些问题" class="headerlink" title="webpack的一些问题"></a>webpack的一些问题</h3><h4 id="html页面引用图片路径出错的问题"><a href="#html页面引用图片路径出错的问题" class="headerlink" title="html页面引用图片路径出错的问题"></a>html页面引用图片路径出错的问题</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">可以在基础配置里添加如下:</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.html$/</span>,</span><br><span class="line">    loader: <span class="string">"html-loader"</span>,</span><br><span class="line">    options: &#123;</span><br><span class="line">        ignoreCustomFragments: [<span class="regexp">/\&#123;\&#123;.*?&#125;&#125;/</span>],</span><br><span class="line">        <span class="comment">// root: path.resolve(__dirname, '../dist/static/img'),</span></span><br><span class="line">        <span class="comment">// publicPath: '../',</span></span><br><span class="line">        attrs: [<span class="string">'img:src'</span>, <span class="string">'link:href'</span>]  <span class="comment">// 这句配置是在尝试了多次之后，加上网上查找各种资料后添加(目前来看没问题)。</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="其他资源路径问题"><a href="#其他资源路径问题" class="headerlink" title="其他资源路径问题"></a>其他资源路径问题</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">可以在分离css、sass等资源文件的时候添加下面配置</span><br><span class="line"></span><br><span class="line">test:  <span class="regexp">/\.(css|scss)$/</span>,</span><br><span class="line">use: ExtractTextPlugin.extract(&#123;</span><br><span class="line">    fallback: <span class="string">'style-loader'</span>,</span><br><span class="line">    use: [&#123;</span><br><span class="line">            loader: <span class="string">'css-loader'</span>,</span><br><span class="line">            options: &#123;</span><br><span class="line">                importLoaders: <span class="number">1</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="string">'postcss-loader'</span>,</span><br><span class="line">        &#123;</span><br><span class="line">            loader: <span class="string">'sass-loader'</span></span><br><span class="line">        &#125;,</span><br><span class="line">    ],</span><br><span class="line">    publicPath:<span class="string">'../../'</span>   <span class="comment">// 这个配置必须要有(以防找不到路径的情况)</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<h4 id="这里放一个多页面配置-入口、出口"><a href="#这里放一个多页面配置-入口、出口" class="headerlink" title="这里放一个多页面配置(入口、出口)"></a>这里放一个多页面配置(入口、出口)</h4><p>可以加在你需要的文件（我是放在utils.js文件）</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">   <span class="comment">// 页面模板</span></span><br><span class="line">   <span class="keyword">var</span> PAGE_PATH = path.resolve(__dirname, <span class="string">'../src'</span>) <span class="comment">// 这里可以根据自己情况配置入口</span></span><br><span class="line">   <span class="comment">// var HTML_PATH = path.resolve(__dirname, '../src')</span></span><br><span class="line">   <span class="keyword">var</span> merge = <span class="built_in">require</span>(<span class="string">'webpack-merge'</span>)</span><br><span class="line"></span><br><span class="line">   <span class="comment">// 多入口配置</span></span><br><span class="line">   exports.entries = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">   <span class="keyword">var</span> entryFiles = glob.sync(PAGE_PATH + <span class="string">'/*.js'</span>) <span class="comment">// 同步匹配文件</span></span><br><span class="line">   <span class="keyword">var</span> map = &#123;&#125;</span><br><span class="line">   entryFiles.forEach(<span class="function">(<span class="params">filePath</span>) =&gt;</span> &#123;</span><br><span class="line">       <span class="keyword">var</span> filename = filePath.substring(filePath.lastIndexOf(<span class="string">'\/'</span>) + <span class="number">1</span>, filePath.lastIndexOf(<span class="string">'.'</span>))</span><br><span class="line">       map[filename] = filePath</span><br><span class="line">   &#125;)</span><br><span class="line">   <span class="keyword">return</span> map</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="comment">// 多页面输出配置</span></span><br><span class="line">   exports.htmlPlugin = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">   <span class="keyword">let</span> entryHtml = glob.sync(PAGE_PATH + <span class="string">'/*.html'</span>)</span><br><span class="line">   <span class="keyword">let</span> arr = []</span><br><span class="line">   entryHtml.forEach(<span class="function">(<span class="params">filePath</span>) =&gt;</span> &#123;</span><br><span class="line">       <span class="keyword">let</span> filename = filePath.substring(filePath.lastIndexOf(<span class="string">'\/'</span>) + <span class="number">1</span>, filePath.lastIndexOf(<span class="string">'.'</span>))</span><br><span class="line">       <span class="keyword">let</span> conf = &#123;</span><br><span class="line">       <span class="comment">// 模板来源</span></span><br><span class="line">       template: filePath,</span><br><span class="line">       <span class="comment">// 文件名称</span></span><br><span class="line">       filename: filename + <span class="string">'.html'</span>,</span><br><span class="line">       <span class="comment">// 页面模板需要加对应的js脚本，如果不加这行则每个页面都会引入所有的js脚本</span></span><br><span class="line">       chunks: [<span class="string">'manifest'</span>, <span class="string">'vendor'</span>, filename],</span><br><span class="line">       inject: <span class="literal">true</span></span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">if</span> (process.env.NODE_ENV === <span class="string">'production'</span>) &#123;</span><br><span class="line">           conf = merge(conf, &#123;</span><br><span class="line">               minify: &#123;</span><br><span class="line">               removeComments: <span class="literal">true</span>,</span><br><span class="line">               collapseWhitespace: <span class="literal">true</span>,</span><br><span class="line">               removeAttributeQuotes: <span class="literal">true</span></span><br><span class="line">               &#125;,</span><br><span class="line">               chunksSortMode: <span class="string">'dependency'</span></span><br><span class="line">           &#125;)</span><br><span class="line">       &#125;</span><br><span class="line">       arr.push(<span class="keyword">new</span> HtmlWebpackPlugin(conf))</span><br><span class="line">       &#125;)</span><br><span class="line">       <span class="keyword">return</span> arr</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   调用方法(入口配置如下)</span><br><span class="line">   <span class="comment">// entry: &#123;</span></span><br><span class="line">   <span class="comment">// 	index: './src/index.js'</span></span><br><span class="line">   <span class="comment">// &#125;,</span></span><br><span class="line">   entry: utils.entries(),</span><br><span class="line"></span><br><span class="line">   开发环境配置（生产环境也如此）</span><br><span class="line">   plugins: [</span><br><span class="line">	<span class="keyword">new</span> webpack.DefinePlugin(&#123;</span><br><span class="line">		<span class="string">'process.env'</span>: config.dev.env</span><br><span class="line">	&#125;),</span><br><span class="line">	<span class="comment">// https://github.com/glenjamin/webpack-hot-middleware#installation--usage</span></span><br><span class="line">	<span class="keyword">new</span> webpack.HotModuleReplacementPlugin(),</span><br><span class="line">	<span class="keyword">new</span> webpack.NoEmitOnErrorsPlugin(),</span><br><span class="line">	<span class="comment">// https://github.com/ampedandwired/html-webpack-plugin</span></span><br><span class="line">	<span class="comment">// new HtmlWebpackPlugin(&#123;</span></span><br><span class="line">	<span class="comment">// 	filename: 'index.html',</span></span><br><span class="line">	<span class="comment">// 	template: 'index.html',</span></span><br><span class="line">	<span class="comment">// 	inject: true</span></span><br><span class="line">	<span class="comment">// &#125;),</span></span><br><span class="line">	<span class="keyword">new</span> FriendlyErrorsPlugin()</span><br><span class="line">].concat(utils.htmlPlugin())  <span class="comment">// todo:这里需要加上(匹配相应的文件)</span></span><br></pre></td></tr></table></figure>
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/webpack-react/">webpack react</a>
+  </span>
 
-        
-    </section>
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/03/16/webpack_react/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
 </article>
 
-
-    <article class="article" itemscope itemprop="blogPost">
     
-    <header class="article-header">
-        
-        <h1 itemprop="name">
-            <a href="/2018/02/12/programs/">个人项目</a>
-        </h1>
-        
-        <div class="article-meta clearfix">
-            <a class="article-date" href="/2018/02/12/programs/">
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
     
-    <i class="icon-calendar"></i>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/16/webpack_vue/">一些vue+webpack基础开发配置</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/03/16/webpack_vue/" class="article-date">
+	  <time datetime="2018-03-16T05:53:02.099Z" itemprop="datePublished">3月 16</time>
+	</a>
+</span>
     
-    <time datetime="2018-02-12T02:29:32.000Z" itemprop="datePublished">2018-02-12</time>
-</a>
-
-            
-<div class="article-tag-list">
-    <i class="icon-tag"></i>
-    <a class="article-tag-link" href="/tags/program/">program</a>
-</div>
-
-
-        </div>
-    </header>
     
-    <section class="article-body markdown-body">
-        
-        <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><ol>
-<li><strong>亲戚计算器</strong>  项目地址: <a href="https://mobile.51wnl.com/activity/calculator/index.html" target="_blank" rel="noopener">https://mobile.51wnl.com/activity/calculator/index.html</a></li>
-</ol>
-<p>说明: 这里几乎包含了所有中国亲戚关系的称呼，再也不需要担心叫不出亲戚的称呼了，快来这里查询你需要的亲戚关系吧!</p>
-<ol>
-<li><strong>祝福语</strong>  项目地址: <a href="https://mobile.51wnl.com/activity/bless/index.html" target="_blank" rel="noopener">https://mobile.51wnl.com/activity/bless/index.html</a></li>
-</ol>
-<p>说明:各种祝福语，送给好友、亲戚、领导…的祝福语大全都在这里，打开链接就能体验</p>
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/webpack-vue/">webpack vue</a>
+  </span>
 
-        
-    </section>
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/03/16/webpack_vue/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
 </article>
 
-
-    <article class="article" itemscope itemprop="blogPost">
     
-    <header class="article-header">
-        
-        <h1 itemprop="name">
-            <a href="/2018/02/09/test/">Test</a>
-        </h1>
-        
-        <div class="article-meta clearfix">
-            <a class="article-date" href="/2018/02/09/test/">
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
     
-    <i class="icon-calendar"></i>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/14/reg/">js正则</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/03/14/reg/" class="article-date">
+	  <time datetime="2018-03-14T06:13:19.330Z" itemprop="datePublished">3月 14</time>
+	</a>
+</span>
     
-    <time datetime="2018-02-09T03:29:32.000Z" itemprop="datePublished">2018-02-09</time>
-</a>
-
-            
-<div class="article-tag-list">
-    <i class="icon-tag"></i>
-    <a class="article-tag-link" href="/tags/测试/">测试</a>
-</div>
-
-
-        </div>
-    </header>
     
-    <section class="article-body markdown-body">
-        
-        <p>Welcome to my blog!<br>推荐一片文章<a href="http://wycheng.me/2017/05/18/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%B0%8F%E7%99%BD%E7%AF%87%EF%BC%89/" target="_blank" rel="noopener">个人博客</a>这里可以学到hexo+github搭建个人博客的方式</p>
-<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><h1 id="1级标题"><a href="#1级标题" class="headerlink" title="1级标题"></a>1级标题</h1><h2 id="2级标题"><a href="#2级标题" class="headerlink" title="2级标题"></a>2级标题</h2><h3 id="3级标题"><a href="#3级标题" class="headerlink" title="3级标题"></a>3级标题</h3><h4 id="4级标题"><a href="#4级标题" class="headerlink" title="4级标题"></a>4级标题</h4><h5 id="5级标题"><a href="#5级标题" class="headerlink" title="5级标题"></a>5级标题</h5><h6 id="6级标题"><a href="#6级标题" class="headerlink" title="6级标题"></a>6级标题</h6><h3 id="加粗文本"><a href="#加粗文本" class="headerlink" title="加粗文本"></a>加粗文本</h3><p><strong>文本</strong><br><strong>加粗</strong></p>
-<h3 id="斜体文本"><a href="#斜体文本" class="headerlink" title="斜体文本"></a>斜体文本</h3><p><em>文本</em><br>_斜体_</p>
-<h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
-<li>red</li>
-<li>green</li>
-</ul>
-<ul>
-<li>yellow</li>
-<li>gray</li>
-</ul>
-<ul>
-<li>blue</li>
-<li>orange</li>
-</ul>
-<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
-<li>red</li>
-<li>green</li>
-</ol>
-<h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><!-- 图片：![图片文本 可不写](http://b.cqyouloft.com/labaFestival2017/img/share.png) -->
-<p>图片：<img src="图片url" alt="图片文本"><br>链接： <a href="链接url">链接文本</a></p>
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/javascript/">javascript</a>
+  </span>
 
-        
-    </section>
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/03/14/reg/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
 </article>
 
-
-    <article class="article" itemscope itemprop="blogPost">
     
-    <header class="article-header">
-        
-        <h1 itemprop="name">
-            <a href="/2018/02/09/hello-world/">Hello World</a>
-        </h1>
-        
-        <div class="article-meta clearfix">
-            <a class="article-date" href="/2018/02/09/hello-world/">
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
     
-    <i class="icon-calendar"></i>
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/26/doc/">文档</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/26/doc/" class="article-date">
+	  <time datetime="2018-02-26T10:42:29.978Z" itemprop="datePublished">2月 26</time>
+	</a>
+</span>
     
-    <time datetime="2018-02-09T02:45:46.878Z" itemprop="datePublished">2018-02-09</time>
-</a>
-
-            
-
-        </div>
-    </header>
     
-    <section class="article-body markdown-body">
-        
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre><code><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-</code></pre><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/react-es6-文档/">react es6 文档</a>
+  </span>
 
-        
-    </section>
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/26/doc/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
 </article>
 
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/23/Tools/">Tools</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/23/Tools/" class="article-date">
+	  <time datetime="2018-02-23T07:32:47.207Z" itemprop="datePublished">2月 23</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/23/Tools/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
+</article>
+
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/23/program/" class="article-date">
+	  <time datetime="2018-02-23T06:53:47.926Z" itemprop="datePublished">2月 23</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/23/program/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
+</article>
+
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/23/vscode常用配置/">vscode常用配置</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/23/vscode常用配置/" class="article-date">
+	  <time datetime="2018-02-23T03:00:32.000Z" itemprop="datePublished">2月 23</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/23/vscode常用配置/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
+</article>
+
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/12/todo/">web小提示</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/12/todo/" class="article-date">
+	  <time datetime="2018-02-12T02:54:52.266Z" itemprop="datePublished">2月 12</time>
+	</a>
+</span>
+    
+    
+
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/12/todo/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
+</article>
+
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/12/programs/">个人项目</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/12/programs/" class="article-date">
+	  <time datetime="2018-02-12T02:29:32.000Z" itemprop="datePublished">2月 12</time>
+	</a>
+</span>
+    
+    
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/program/">program</a>
+  </span>
 
 
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/12/programs/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
+</article>
 
-<nav class="page-nav">
-    <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
-</nav>
+    
+      <article class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="article-header">
+    
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/02/09/test/">Test</a>
+    </h1>
+  
+
+  </div>
+  
+  <p class="article-meta">
+    <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2018/02/09/test/" class="article-date">
+	  <time datetime="2018-02-09T03:29:32.000Z" itemprop="datePublished">2月 9</time>
+	</a>
+</span>
+    
+    
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link" href="/tags/测试/">测试</a>
+  </span>
 
 
-</div>
-        <footer class="footer">
-    Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>, Theme by <a href="https://github.com/sanonz/hexo-theme-concise" target="_blank">Concise</a>
-</footer>
+    <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2018/02/09/test/#comments" class="article-comment-link">Comments</a></span>
+    
+  </p>
+</article>
 
-<script type="text/javascript" src="//s13.cnzz.com/z_stat.php?id=1234567890&amp;web_id=1234567890"></script>
+    
+  </div>
 
+  
+    
+    <nav class="bar bar-footer clearfix" data-stick-bottom>
+        <div class="bar-inner">
+        <ul class="pager pull-left">
+            
+            <li class="prev">
+                <a href="/">
+                    <i class="icon icon-angle-left"></i>
+                    Prev
+                </a>
+            </li>
+            
+            
+            <li class="next">
+                <a href="/page/3/">
+                    Next
+                    <i class="icon icon-angle-right"></i>
+                </a>
+            </li>
+            
+        </ul>
+        <div class="total-article bar-right">Page 2 of 3</div>
+        </div>
+    </nav>
+    
+ 
+</main>
 
+  <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
+	
+	
+    <ul class="social-links">
+    	
+        <li><a href="https://github.com/18883846209" target="_blank" title="Github" data-toggle=tooltip data-placement=top><i class="icon icon-github"></i></a></li>
+        
+        <li><a href="http://weibo.com/cofess" target="_blank" title="Weibo" data-toggle=tooltip data-placement=top><i class="icon icon-weibo"></i></a></li>
+        
+        <li><a href="https://twitter.com/iwebued" target="_blank" title="Twitter" data-toggle=tooltip data-placement=top><i class="icon icon-twitter"></i></a></li>
+        
+        <li><a href="https://www.behance.net/cofess" target="_blank" title="Behance" data-toggle=tooltip data-placement=top><i class="icon icon-behance"></i></a></li>
+        
+        <li><a href="/atom.xml" target="_blank" title="Rss" data-toggle=tooltip data-placement=top><i class="icon icon-rss"></i></a></li>
+        
+    </ul>
+
+    <div class="copyright">
+    	
+        <div class="publishby">
+        	Theme by <a href="https://github.com/cofess" target="_blank"> cofess </a>base on <a href="https://github.com/cofess/hexo-theme-pure" target="_blank">pure</a>.
+        </div>
     </div>
-
-    <script type="text/javascript" src="https://cdn.bootcss.com/jquery/1.9.0/jquery.min.js"></script>
+</footer>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script>
+window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
+</script>
+<script src="/js/plugin.min.js"></script>
+<script src="/js/application.js"></script>
+  
     
-    <script type="text/javascript">
-        $(function() {
-            var nodes = {
-                nav: $('#nav'),
-                aside: $('#aside'),
-                navTags: $('#nav-tags')
-            };
+    
+    
+        <script>
+(function (window) {
+    var INSIGHT_CONFIG = {
+        TRANSLATION: {
+            POSTS: 'Posts',
+            PAGES: 'Pages',
+            CATEGORIES: 'Categories',
+            TAGS: 'Tags',
+            UNTITLED: '(Untitled)',
+        },
+        ROOT_URL: '/',
+        CONTENT_URL: '/content.json',
+    };
+    window.INSIGHT_CONFIG = INSIGHT_CONFIG;
+})(window);
+</script>
+<script src="/js/insight.js"></script>
+    
+    
+    
+        
+<script defer src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
-            $('#open-panel, #aside-mask').on('click', function() {
-                nodes.aside.toggleClass('panel-show');
-            });
-            $('#nav-tag').on('click', function(event) {
-                event.preventDefault();console.log(nodes.navTags.attr('class'))
-                nodes.navTags.toggleClass('tag-show');console.log(nodes.navTags.attr('class'))
-            })/*.hover(function() {
-                nodes.navTags.addClass('tag-show');
-            }, function() {
-                nodes.navTags.removeClass('tag-show');
-            });*/
 
-            
-        });
-    </script>
+
+    
+    
+    
+
+
 
 </body>
 </html>

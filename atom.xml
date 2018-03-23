@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ZJ&#39;s Blog</title>
+  
+  <subtitle>personal blog</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2018-03-23T07:32:33.821Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>ZJ</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Repositories</title>
+    <link href="http://yoursite.com/2018/03/23/repository/index/"/>
+    <id>http://yoursite.com/2018/03/23/repository/index/</id>
+    <published>2018-03-23T07:32:33.821Z</published>
+    <updated>2018-03-23T07:32:33.821Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>标签</title>
+    <link href="http://yoursite.com/2018/03/23/tags/index/"/>
+    <id>http://yoursite.com/2018/03/23/tags/index/</id>
+    <published>2018-03-23T07:32:33.821Z</published>
+    <updated>2018-03-23T07:32:33.821Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>分类</title>
+    <link href="http://yoursite.com/2018/03/23/categories/index/"/>
+    <id>http://yoursite.com/2018/03/23/categories/index/</id>
+    <published>2018-03-23T07:32:33.820Z</published>
+    <updated>2018-03-23T07:32:33.820Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>友情链接</title>
+    <link href="http://yoursite.com/2018/03/23/links/index/"/>
+    <id>http://yoursite.com/2018/03/23/links/index/</id>
+    <published>2018-03-23T07:32:33.820Z</published>
+    <updated>2018-03-23T07:32:33.820Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于</title>
+    <link href="http://yoursite.com/2018/03/23/about/index/"/>
+    <id>http://yoursite.com/2018/03/23/about/index/</id>
+    <published>2018-03-23T07:32:33.819Z</published>
+    <updated>2018-03-23T07:32:33.819Z</updated>
+    
+    <content type="html"><![CDATA[<p>个人详细介绍</p>]]></content>
+    
+    <summary type="html">
+    
+      个人简介
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>书单</title>
+    <link href="http://yoursite.com/2018/03/23/books/index/"/>
+    <id>http://yoursite.com/2018/03/23/books/index/</id>
+    <published>2018-03-23T07:32:33.819Z</published>
+    <updated>2018-03-23T07:32:33.820Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>404 Not Found：该页无法显示</title>
+    <link href="http://yoursite.com/2018/03/23//404/"/>
+    <id>http://yoursite.com/2018/03/23//404/</id>
+    <published>2018-03-23T07:32:33.818Z</published>
+    <updated>2018-03-23T07:32:33.818Z</updated>
+    
+    <content type="html"><![CDATA[<script type="text/javascript" src="http://www.qq.com/404/search_children.js" charset="utf-8" homepageurl="http://blog.cofess.com" homepagename="回到我的主页"></script>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;script type=&quot;text/javascript&quot; src=&quot;http://www.qq.com/404/search_children.js&quot; charset=&quot;utf-8&quot; homepageurl=&quot;http://blog.cofess.com&quot; homepagen
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>随笔</title>
+    <link href="http://yoursite.com/2018/03/16/vue_analyze/"/>
+    <id>http://yoursite.com/2018/03/16/vue_analyze/</id>
+    <published>2018-03-16T07:24:04.857Z</published>
+    <updated>2018-03-23T05:20:37.949Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="http://yoursite.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随笔</title>
+    <link href="http://yoursite.com/2018/03/16/article/"/>
+    <id>http://yoursite.com/2018/03/16/article/</id>
+    <published>2018-03-16T06:29:25.133Z</published>
+    <updated>2018-03-16T06:32:56.081Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="一点感想"><a href="#一点感想" class="headerlink" title="一点感想"></a>一点感想</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;一点感想&quot;&gt;&lt;a href=&quot;#一点感想&quot; class=&quot;headerlink&quot; title=&quot;一点感想&quot;&gt;&lt;/a&gt;一点感想&lt;/h2&gt;
+      
+    
+    </summary>
+    
+    
+      <category term="感悟" scheme="http://yoursite.com/tags/%E6%84%9F%E6%82%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typescript+webpack基础开发配置</title>
+    <link href="http://yoursite.com/2018/03/16/webpack_typescript/"/>
+    <id>http://yoursite.com/2018/03/16/webpack_typescript/</id>
+    <published>2018-03-16T06:12:51.914Z</published>
+    <updated>2018-03-16T06:16:30.716Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、安装相应的依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install ts-loader --save-dev</span><br></pre></td></tr></table></figure></p><p>2、webpack.base.config添加如下配置<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.tsx?$/</span>, <span class="comment">// typescript配置</span></span><br><span class="line">    loader: <span class="string">'ts-loader'</span>,</span><br><span class="line">    include: resolve(<span class="string">'src'</span>),</span><br><span class="line">    exclude: <span class="regexp">/node_modules/</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p><p>3、入口文件改成ts文件<br>4、根目录添加tsconfig.json文件<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="string">"compilerOptions"</span>: &#123;</span><br><span class="line">      <span class="string">"outDir"</span>: <span class="string">"./dist/"</span>,</span><br><span class="line">      <span class="string">"sourceMap"</span>: <span class="literal">true</span>,</span><br><span class="line">      <span class="string">"noImplicitAny"</span>: <span class="literal">true</span>,</span><br><span class="line">      <span class="string">"module"</span>: <span class="string">"es6"</span>,</span><br><span class="line">      <span class="string">"target"</span>: <span class="string">"es5"</span>,</span><br><span class="line">      <span class="string">"jsx"</span>: <span class="string">"react"</span>,</span><br><span class="line">      <span class="string">"allowJs"</span>: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、安装相应的依赖&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code
+      
+    
+    </summary>
+    
+    
+      <category term="webpack typescript" scheme="http://yoursite.com/tags/webpack-typescript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些react+webpack基础开发配置</title>
+    <link href="http://yoursite.com/2018/03/16/webpack_react/"/>
+    <id>http://yoursite.com/2018/03/16/webpack_react/</id>
+    <published>2018-03-16T06:05:11.888Z</published>
+    <updated>2018-03-16T06:11:06.854Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、安装相应的依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install babel-preset-react react react-dom --save-dev</span><br></pre></td></tr></table></figure></p><p>2、webpack.base.config添加如下配置<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.jsx?$/</span>,</span><br><span class="line">    loader: <span class="string">'babel-loader?cacheDirectory=true'</span>, <span class="comment">// 开启缓存</span></span><br><span class="line">    include: resolve(<span class="string">'src'</span>),</span><br><span class="line">    query: &#123;</span><br><span class="line">        presets: [<span class="string">'react'</span>]</span><br><span class="line">    &#125;,</span><br><span class="line">    exclude: <span class="regexp">/node_modules/</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p><p>3、src目录添加main.js  react.js文件(根据自己需要)<br>4、main.js添加如下<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'babel-polyfill'</span>;</span><br><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; render &#125; <span class="keyword">from</span> <span class="string">'react-dom'</span>;</span><br><span class="line"><span class="keyword">import</span> Component <span class="keyword">from</span> <span class="string">'./react'</span>;</span><br><span class="line"></span><br><span class="line">render(&lt;Component /&gt;,document.getElementById('test')); // eslint-disable-line</span><br></pre></td></tr></table></figure></p><p>react.js<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Component</span> <span class="keyword">extends</span> <span class="title">React</span>.<span class="title">Component</span></span>&#123; <span class="comment">// eslint-disable-line</span></span><br><span class="line">render() &#123;</span><br><span class="line"><span class="keyword">return</span> &lt;div&gt;Helllo World&lt;/div&gt; <span class="comment">// eslint-disable-line</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> Component;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、安装相应的依赖&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code
+      
+    
+    </summary>
+    
+    
+      <category term="webpack react" scheme="http://yoursite.com/tags/webpack-react/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一些vue+webpack基础开发配置</title>
+    <link href="http://yoursite.com/2018/03/16/webpack_vue/"/>
+    <id>http://yoursite.com/2018/03/16/webpack_vue/</id>
+    <published>2018-03-16T05:53:02.099Z</published>
+    <updated>2018-03-16T06:12:21.434Z</updated>
+    
+    <content type="html"><![CDATA[<p>1、安装相应的依赖<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install vue-loader vue-template-compiler --save-dev</span><br></pre></td></tr></table></figure></p><p>2、webpack.base.config添加如下配置<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.vue$/</span>,</span><br><span class="line">    use: [<span class="string">'vue-loader'</span>],</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure></p><p>3、src添加main.js  App.vue文件(根据自己需要决定)<br>4、main.js添加如下<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> Vue <span class="keyword">from</span> <span class="string">'vue'</span>;</span><br><span class="line"><span class="keyword">import</span> App <span class="keyword">from</span> <span class="string">'./App.vue'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">new</span> Vue(&#123; <span class="comment">// eslint-disable-line</span></span><br><span class="line">el: <span class="string">'#test'</span>, <span class="comment">// index.html文件的根元素</span></span><br><span class="line">render: <span class="function"><span class="params">h</span> =&gt;</span> h(App)</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure></p><p>App.vue<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--渲染模版--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h1&gt;&#123;&#123; msg &#125;&#125;&lt;<span class="regexp">/h1&gt;</span></span><br><span class="line"><span class="regexp">&lt;/</span>template&gt;</span><br><span class="line"></span><br><span class="line">&lt;!--样式描述--&gt;</span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">  h1 &#123;</span><br><span class="line">color: red;</span><br><span class="line">  &#125;</span><br><span class="line">&lt;<span class="regexp">/style&gt;</span></span><br><span class="line"><span class="regexp"></span></span><br><span class="line"><span class="regexp">&lt;!--组件逻辑--&gt;</span></span><br><span class="line"><span class="regexp">&lt;script&gt;</span></span><br><span class="line"><span class="regexp">  export default &#123;</span></span><br><span class="line"><span class="regexp">data() &#123;</span></span><br><span class="line"><span class="regexp">return &#123;</span></span><br><span class="line"><span class="regexp">msg: 'Hello,Webpack'</span></span><br><span class="line"><span class="regexp">&#125;;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br><span class="line"><span class="regexp">  &#125;;</span></span><br><span class="line"><span class="regexp">&lt;/</span>script&gt;</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1、安装相应的依赖&lt;br&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code
+      
+    
+    </summary>
+    
+    
+      <category term="webpack vue" scheme="http://yoursite.com/tags/webpack-vue/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>js正则</title>
+    <link href="http://yoursite.com/2018/03/14/reg/"/>
+    <id>http://yoursite.com/2018/03/14/reg/</id>
+    <published>2018-03-14T06:13:19.330Z</published>
+    <updated>2018-03-23T05:17:43.882Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>推荐网址1<a href="https://juejin.im/entry/593a413a5c497d006b6e9aee" target="_blank" rel="noopener">https://juejin.im/entry/593a413a5c497d006b6e9aee</a></li><li>推荐网址2<a href="https://github.com/jawil/blog/issues/20" target="_blank" rel="noopener">https://github.com/jawil/blog/issues/20</a></li><li>常用正则表达式1<a href="http://www.jb51.net/tools/regex.htm" target="_blank" rel="noopener">http://www.jb51.net/tools/regex.htm</a></li><li>常用正则表达式2<a href="https://juejin.im/post/5aa23ee46fb9a028b86d9cf4" target="_blank" rel="noopener">https://juejin.im/post/5aa23ee46fb9a028b86d9cf4</a></li></ul><p><img src="./img/bg2.jpg" alt="image"><br>至少包含一个或多个 可以用 (?=.*[A-Z])<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[A-Z])/</span>  <span class="comment">// 至少包含一个大写字母</span></span><br></pre></td></tr></table></figure></p><p>同时包含数字和小写字母，可以用(?=.<em>[0-9])(?=.</em>[a-z])来做。<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/(?=.*[0-9])(?=.*[a-z])/</span></span><br></pre></td></tr></table></figure></p><p>匹配汉字(不完全)<br>    <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> reg = <span class="regexp">/[\u4e00-\u9fa5]/</span></span><br></pre></td></tr></table></figure></p><p>省级地址码校验及测试程序如下：</p><pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> checkProv = <span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> pattern = <span class="regexp">/^[1-9][0-9]/</span>;</span><br><span class="line">    <span class="keyword">let</span> provs = &#123;<span class="number">11</span>:<span class="string">"北京"</span>,<span class="number">12</span>:<span class="string">"天津"</span>,<span class="number">13</span>:<span class="string">"河北"</span>,<span class="number">14</span>:<span class="string">"山西"</span>,<span class="number">15</span>:<span class="string">"内蒙古"</span>,<span class="number">21</span>:<span class="string">"辽宁"</span>,<span class="number">22</span>:<span class="string">"吉林"</span>,<span class="number">23</span>:<span class="string">"黑龙江 "</span>,<span class="number">31</span>:<span class="string">"上海"</span>,<span class="number">32</span>:<span class="string">"江苏"</span>,<span class="number">33</span>:<span class="string">"浙江"</span>,<span class="number">34</span>:<span class="string">"安徽"</span>,<span class="number">35</span>:<span class="string">"福建"</span>,<span class="number">36</span>:<span class="string">"江西"</span>,<span class="number">37</span>:<span class="string">"山东"</span>,<span class="number">41</span>:<span class="string">"河南"</span>,<span class="number">42</span>:<span class="string">"湖北 "</span>,<span class="number">43</span>:<span class="string">"湖南"</span>,<span class="number">44</span>:<span class="string">"广东"</span>,<span class="number">45</span>:<span class="string">"广西"</span>,<span class="number">46</span>:<span class="string">"海南"</span>,<span class="number">50</span>:<span class="string">"重庆"</span>,<span class="number">51</span>:<span class="string">"四川"</span>,<span class="number">52</span>:<span class="string">"贵州"</span>,<span class="number">53</span>:<span class="string">"云南"</span>,<span class="number">54</span>:<span class="string">"西藏 "</span>,<span class="number">61</span>:<span class="string">"陕西"</span>,<span class="number">62</span>:<span class="string">"甘肃"</span>,<span class="number">63</span>:<span class="string">"青海"</span>,<span class="number">64</span>:<span class="string">"宁夏"</span>,<span class="number">65</span>:<span class="string">"新疆"</span>,<span class="number">71</span>:<span class="string">"台湾"</span>,<span class="number">81</span>:<span class="string">"香港"</span>,<span class="number">82</span>:<span class="string">"澳门"</span>&#125;;</span><br><span class="line">    <span class="keyword">if</span>(pattern.test(val)) &#123;</span><br><span class="line">        <span class="keyword">if</span>(provs[val]) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出 true，37是山东</span></span><br><span class="line"><span class="built_in">console</span>.log(checkProv(<span class="number">37</span>));</span><br><span class="line"><span class="comment">//输出 false，16不存在</span></span><br><span class="line"><span class="built_in">console</span>.log(checkProv(<span class="number">16</span>));</span><br></pre></td></tr></table></figure></code></pre><p>出生日期码的校验:</p><pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> checkDate = <span class="function">(<span class="params">val</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">let</span> pattern = <span class="regexp">/^(18|19|20)\d&#123;2&#125;((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)$/</span>;</span><br><span class="line">    <span class="keyword">let</span> value = val.toString();</span><br><span class="line">    <span class="keyword">if</span> (pattern.test(value)) &#123;</span><br><span class="line">        <span class="keyword">let</span> year = value.substring(<span class="number">0</span>, <span class="number">4</span>);</span><br><span class="line">        <span class="keyword">let</span> month = value.substring(<span class="number">4</span>, <span class="number">6</span>);</span><br><span class="line">        <span class="keyword">let</span> date = value.substring(<span class="number">6</span>, <span class="number">8</span>);</span><br><span class="line">        <span class="keyword">let</span> date2 = <span class="keyword">new</span> <span class="built_in">Date</span>(year + <span class="string">''</span> + month + <span class="string">''</span> + date);</span><br><span class="line">        <span class="keyword">if</span> (date2 &amp;&amp; date2.getMonth() === (<span class="built_in">parseInt</span>(month) - <span class="number">1</span>)) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">//输出 true</span></span><br><span class="line"><span class="built_in">console</span>.log(checkDate(<span class="string">"20180212"</span>));</span><br><span class="line"><span class="comment">//输出 false 2月没有31日</span></span><br><span class="line"><span class="built_in">console</span>.log(checkDate(<span class="string">"20180231"</span>));</span><br></pre></td></tr></table></figure></code></pre><p>校验码计算程序及测试见如下代码：</p><pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> checkCode = <span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> p = <span class="regexp">/^[1-9]\d&#123;5&#125;(18|19|20)\d&#123;2&#125;((0[1-9])|(1[0-2]))(([0-2][1-9])|10|20|30|31)\d&#123;3&#125;[0-9Xx]$/</span>;</span><br><span class="line">    <span class="keyword">let</span> factor = [<span class="number">7</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">4</span>, <span class="number">2</span>, <span class="number">1</span>, <span class="number">6</span>, <span class="number">3</span>, <span class="number">7</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">5</span>, <span class="number">8</span>, <span class="number">4</span>, <span class="number">2</span>];</span><br><span class="line">    <span class="keyword">let</span> parity = [<span class="number">1</span>, <span class="number">0</span>, <span class="string">'X'</span>, <span class="number">9</span>, <span class="number">8</span>, <span class="number">7</span>, <span class="number">6</span>, <span class="number">5</span>, <span class="number">4</span>, <span class="number">3</span>, <span class="number">2</span>];</span><br><span class="line">    <span class="keyword">let</span> code = val.toString().substring(<span class="number">17</span>);</span><br><span class="line">    <span class="keyword">if</span>(p.test(val)) &#123;</span><br><span class="line">        <span class="keyword">let</span> sum = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">let</span> i = <span class="number">0</span>; i &lt; <span class="number">17</span>; i += <span class="number">1</span>) &#123;</span><br><span class="line">            sum += val[i] * factor[i];</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(parity[sum % <span class="number">11</span>] === code.toUpperCase()) &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">// 输出 true， 校验码相符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkCode(<span class="string">"11010519491231002X"</span>));</span><br><span class="line"><span class="comment">// 输出 false， 校验码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkCode(<span class="string">"110105194912310021"</span>));</span><br></pre></td></tr></table></figure></code></pre><p>身份证号码整体校验代码：</p><pre><code><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> checkID = <span class="function"><span class="keyword">function</span> (<span class="params">val</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> value = val.toString();</span><br><span class="line">    <span class="keyword">if</span>(checkCode(value)) &#123;</span><br><span class="line">        <span class="keyword">var</span> date = value.substring(<span class="number">6</span>,<span class="number">14</span>);</span><br><span class="line">        <span class="keyword">if</span>(checkDate(date)) &#123;</span><br><span class="line">            <span class="keyword">if</span>(checkProv(value.substring(<span class="number">0</span>,<span class="number">2</span>))) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出 true</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"11010519491231002X"</span>));</span><br><span class="line"><span class="comment">//输出 false，校验码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"110105194912310021"</span>));</span><br><span class="line"><span class="comment">//输出 false，日期码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"110105194902310026"</span>));</span><br><span class="line"><span class="comment">//输出 false，地区码不符</span></span><br><span class="line"><span class="built_in">console</span>.log(checkID(<span class="string">"160105194912310029"</span>));</span><br></pre></td></tr></table></figure></code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;推荐网址1&lt;a href=&quot;https://juejin.im/entry/593a413a5c497d006b6e9aee&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://juejin.im/entry/593a413a5c49
+      
+    
+    </summary>
+    
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文档</title>
+    <link href="http://yoursite.com/2018/02/26/doc/"/>
+    <id>http://yoursite.com/2018/02/26/doc/</id>
+    <published>2018-02-26T10:42:29.978Z</published>
+    <updated>2018-03-15T08:26:39.333Z</updated>
+    
+    <content type="html"><![CDATA[<ul><li>react文档 <a href="https://doc.react-china.org/docs/components-and-props.html" target="_blank" rel="noopener">https://doc.react-china.org/docs/components-and-props.html</a></li><li>es6教程 <a href="http://es6.ruanyifeng.com/#README" target="_blank" rel="noopener">http://es6.ruanyifeng.com/#README</a></li><li>git教程 <a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;ul&gt;
+&lt;li&gt;react文档 &lt;a href=&quot;https://doc.react-china.org/docs/components-and-props.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://doc.react-china
+      
+    
+    </summary>
+    
+    
+      <category term="react es6 文档" scheme="http://yoursite.com/tags/react-es6-%E6%96%87%E6%A1%A3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Tools</title>
+    <link href="http://yoursite.com/2018/02/23/Tools/"/>
+    <id>http://yoursite.com/2018/02/23/Tools/</id>
+    <published>2018-02-23T07:32:47.207Z</published>
+    <updated>2018-02-23T07:35:00.314Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="移动端测试工具"><a href="#移动端测试工具" class="headerlink" title="移动端测试工具"></a>移动端测试工具</h3><p><a href="http://mobile.51wnl.com/clientH5/test/iphonex_test.html" target="_blank" rel="noopener">http://mobile.51wnl.com/clientH5/test/iphonex_test.html</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;移动端测试工具&quot;&gt;&lt;a href=&quot;#移动端测试工具&quot; class=&quot;headerlink&quot; title=&quot;移动端测试工具&quot;&gt;&lt;/a&gt;移动端测试工具&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;http://mobile.51wnl.com/clientH5/test/iph
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2018/02/23/program/"/>
+    <id>http://yoursite.com/2018/02/23/program/</id>
+    <published>2018-02-23T06:53:47.926Z</published>
+    <updated>2018-03-15T08:15:17.138Z</updated>
+    
+    <content type="html"><![CDATA[<!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ --><p><br></p><h4 id="给html元素添加点击状态"><a href="#给html元素添加点击状态" class="headerlink" title="给html元素添加点击状态"></a>给html元素添加点击状态</h4><p>给元素添加伪类:active<br>css设置如下</p><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="selector-pseudo">:active</span> &#123;</span><br><span class="line">background-color: #eee; // 设置自己需要的颜色</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>有些iOS和Android上的链接或者按钮被点击的时候都会忽略这个属性。为了使用这个active状态，你需要使用JavaScript给页面添加一个简单的事件:</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.body.addEventListener(<span class="string">'touchstart'</span>, <span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;&#125;, <span class="literal">true</span>);</span><br></pre></td></tr></table></figure><h4 id="文字输入限制问题（输入完成后才做出判断）"><a href="#文字输入限制问题（输入完成后才做出判断）" class="headerlink" title="文字输入限制问题（输入完成后才做出判断）"></a>文字输入限制问题（输入完成后才做出判断）</h4><p>当输入汉字时必然会是非直接输入，需要我们点选才能正式输入。<br>当我们字数限制为16个字，需要实时检查是否到16字。输入文字时，当有非直接的文字输入时，监听keydown事件和input事件都会直接触发判断字数逻辑，会截断我们正在输入的文字。<br>解决办法：监听compositionend（当直接的文字输入时触发）这时，当没选中文字的时候不会进行字数判断。</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="string">'#input'</span>).on(<span class="string">'compositionend'</span>, () =&gt; &#123;</span><br><span class="line"><span class="keyword">let</span> len = $(<span class="string">'#input'</span>).val().length;</span><br><span class="line"><span class="keyword">if</span> (len &gt; <span class="number">5</span>) &#123;</span><br><span class="line"><span class="comment">// 提示超出字数</span></span><br><span class="line">$.toast().reset(<span class="string">'all'</span>);</span><br><span class="line">$.toast(<span class="string">'不能超过5个字'</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure><h4 id="判断滚动方向-pc"><a href="#判断滚动方向-pc" class="headerlink" title="判断滚动方向(pc)"></a>判断滚动方向(pc)</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">scrollFunc () &#123; <span class="comment">// 判断滚动方向</span></span><br><span class="line"><span class="keyword">if</span> (<span class="keyword">typeof</span> scrollAction.x === <span class="string">'undefined'</span>) &#123;</span><br><span class="line">scrollAction.x = <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">scrollAction.y = <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> diffX = scrollAction.x - <span class="built_in">window</span>.pageXOffset;</span><br><span class="line"><span class="keyword">let</span> diffY = scrollAction.y - <span class="built_in">window</span>.pageYOffset;</span><br><span class="line"><span class="keyword">if</span> (diffX &lt; <span class="number">0</span>) &#123;</span><br><span class="line"><span class="comment">// Scroll right</span></span><br><span class="line"><span class="comment">// scrollDirection = 'right';</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffX &gt; <span class="number">0</span>) &#123;</span><br><span class="line"><span class="comment">// Scroll left</span></span><br><span class="line"><span class="comment">// scrollDirection = 'left';</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffY &lt; <span class="number">0</span>) &#123;</span><br><span class="line"><span class="comment">// Scroll down</span></span><br><span class="line"><span class="comment">// scrollDirection = 'down';</span></span><br><span class="line">&#125; <span class="keyword">else</span> <span class="keyword">if</span> (diffY &gt; <span class="number">0</span>) &#123;</span><br><span class="line"><span class="comment">// Scroll up</span></span><br><span class="line"><span class="comment">// scrollDirection = 'up';</span></span><br><span class="line">&#125; <span class="keyword">else</span> &#123;</span><br><span class="line"><span class="comment">// First scroll event</span></span><br><span class="line"><span class="comment">// scrollDirection = 'noscroll';</span></span><br><span class="line">&#125;</span><br><span class="line">scrollAction.x = <span class="built_in">window</span>.pageXOffset;</span><br><span class="line">scrollAction.y = <span class="built_in">window</span>.pageYOffset;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">调用</span><br><span class="line"><span class="built_in">window</span>.onscroll = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">scrollFunc();</span><br><span class="line"><span class="comment">// 然后通过scrollDirection的值获取方向</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="滚动到底部的判断-在滚动事件中判断"><a href="#滚动到底部的判断-在滚动事件中判断" class="headerlink" title="滚动到底部的判断(在滚动事件中判断)"></a>滚动到底部的判断(在滚动事件中判断)</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span> (<span class="built_in">window</span>.pageYOffset + <span class="built_in">window</span>.innerHeight &gt;= <span class="built_in">document</span>.body.scrollHeight) &#123;</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'到底了'</span>);</span><br><span class="line">&#125;</span><br><span class="line">其中<span class="built_in">window</span>.pageYOffset为滚动条的坐标（距离顶部的距离） <span class="built_in">window</span>.innerHeight为屏幕的高度  <span class="built_in">document</span>.body.scrollHeight为网页内容的高度</span><br></pre></td></tr></table></figure><h4 id="判断滑动方向（移动端）"><a href="#判断滑动方向（移动端）" class="headerlink" title="判断滑动方向（移动端）"></a>判断滑动方向（移动端）</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//返回角度</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetSlideAngle</span>(<span class="params">dx, dy</span>) </span>&#123;</span><br><span class="line"><span class="keyword">return</span> (<span class="built_in">Math</span>.atan2(dy, dx) * <span class="number">180</span>) / <span class="built_in">Math</span>.PI;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//根据起点和终点返回方向 up：向上，down：向下，left：向左，right：向右,0：未滑动</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">GetSlideDirection</span>(<span class="params">startX, startY, endX, endY</span>) </span>&#123;</span><br><span class="line"><span class="keyword">let</span> dy = startY - endY;</span><br><span class="line"><span class="keyword">let</span> dx = endX - startX;</span><br><span class="line"><span class="keyword">let</span> result = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">//如果滑动距离太短</span></span><br><span class="line"><span class="keyword">if</span> (<span class="built_in">Math</span>.abs(dx) &lt; <span class="number">2</span> &amp;&amp; <span class="built_in">Math</span>.abs(dy) &lt; <span class="number">2</span>) &#123;</span><br><span class="line"><span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> angle = GetSlideAngle(dx, dy);</span><br><span class="line"><span class="keyword">if</span> (angle &gt;= <span class="number">-45</span> &amp;&amp; angle &lt; <span class="number">45</span>) &#123;</span><br><span class="line">result = <span class="string">'right'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span> (angle &gt;= <span class="number">45</span> &amp;&amp; angle &lt; <span class="number">135</span>) &#123;</span><br><span class="line">result = <span class="string">'up'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span> (angle &gt;= <span class="number">-135</span> &amp;&amp; angle &lt; <span class="number">-45</span>) &#123;</span><br><span class="line">result = <span class="string">'down'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span> ((angle &gt;= <span class="number">135</span> &amp;&amp; angle &lt;= <span class="number">180</span>) || (angle &gt;= <span class="number">-180</span> &amp;&amp; angle &lt; <span class="number">-135</span>)) &#123;</span><br><span class="line">result = <span class="string">'left'</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">handleSlide</span>(<span class="params">dir</span>) </span>&#123;</span><br><span class="line"><span class="keyword">switch</span> (dir) &#123;</span><br><span class="line"><span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line"><span class="comment">// alert('没滑动');</span></span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">case</span> <span class="string">'up'</span>:</span><br><span class="line"><span class="comment">// alert('向上');</span></span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">case</span> <span class="string">'down'</span>:</span><br><span class="line"><span class="comment">// alert('向下');</span></span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">case</span> <span class="string">'left'</span>:</span><br><span class="line"><span class="comment">// alert('向左');</span></span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">case</span> <span class="string">'right'</span>:</span><br><span class="line"><span class="comment">// alert('向右');</span></span><br><span class="line"><span class="keyword">break</span>;</span><br><span class="line"><span class="keyword">default</span>:</span><br><span class="line"><span class="comment">// alert('nomove');</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//滑动处理</span></span><br><span class="line"><span class="keyword">let</span> startX;</span><br><span class="line"><span class="keyword">let</span> startY;</span><br><span class="line"><span class="keyword">let</span> moveX;</span><br><span class="line"><span class="keyword">let</span> moveY;</span><br><span class="line"><span class="keyword">let</span> endX;</span><br><span class="line"><span class="keyword">let</span> endY;</span><br><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">'touchstart'</span>, (ev) =&gt; &#123;</span><br><span class="line">startX = ev.touches[<span class="number">0</span>].pageX;</span><br><span class="line">startY = ev.touches[<span class="number">0</span>].pageY;</span><br><span class="line">&#125;, <span class="literal">false</span>);</span><br><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">'touchmove'</span>, (ev) =&gt; &#123;</span><br><span class="line">moveX = ev.changedTouches[<span class="number">0</span>].pageX;</span><br><span class="line">moveY = ev.changedTouches[<span class="number">0</span>].pageY;</span><br><span class="line"><span class="keyword">let</span> direction = GetSlideDirection(startX, startY, moveX, moveY);</span><br><span class="line">handleSlide(direction);</span><br><span class="line">&#125;, <span class="literal">false</span>);</span><br><span class="line"><span class="built_in">document</span>.addEventListener(<span class="string">'touchend'</span>, (ev) =&gt; &#123;</span><br><span class="line">endX = ev.changedTouches[<span class="number">0</span>].pageX;</span><br><span class="line">endY = ev.changedTouches[<span class="number">0</span>].pageY;</span><br><span class="line"><span class="keyword">let</span> direction = GetSlideDirection(startX, startY, endX, endY);</span><br><span class="line">handleSlide(direction);</span><br><span class="line">&#125;, <span class="literal">false</span>);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ --&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h4 id=&quot;给html元素添加点击状态&quot;&gt;&lt;a href=&quot;#给html元素添加点击状态&quot; class=&quot;headerlink&quot; title=&quot;给html元素添加点击状态&quot;&gt;&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>vscode常用配置</title>
+    <link href="http://yoursite.com/2018/02/23/vscode%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE/"/>
+    <id>http://yoursite.com/2018/02/23/vscode常用配置/</id>
+    <published>2018-02-23T03:00:32.000Z</published>
+    <updated>2018-03-23T05:21:14.949Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="auto-import"><a href="#auto-import" class="headerlink" title="auto import"></a>auto import</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;auto-import&quot;&gt;&lt;a href=&quot;#auto-import&quot; class=&quot;headerlink&quot; title=&quot;auto import&quot;&gt;&lt;/a&gt;auto import&lt;/h2&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>web小提示</title>
+    <link href="http://yoursite.com/2018/02/12/todo/"/>
+    <id>http://yoursite.com/2018/02/12/todo/</id>
+    <published>2018-02-12T02:54:52.266Z</published>
+    <updated>2018-03-15T06:43:56.175Z</updated>
+    
+    <content type="html"><![CDATA[<!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ --><p><br></p><h3 id="webpack的一些问题"><a href="#webpack的一些问题" class="headerlink" title="webpack的一些问题"></a>webpack的一些问题</h3><h4 id="html页面引用图片路径出错的问题"><a href="#html页面引用图片路径出错的问题" class="headerlink" title="html页面引用图片路径出错的问题"></a>html页面引用图片路径出错的问题</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">可以在基础配置里添加如下:</span><br><span class="line"></span><br><span class="line">&#123;</span><br><span class="line">    test: <span class="regexp">/\.html$/</span>,</span><br><span class="line">    loader: <span class="string">"html-loader"</span>,</span><br><span class="line">    options: &#123;</span><br><span class="line">        ignoreCustomFragments: [<span class="regexp">/\&#123;\&#123;.*?&#125;&#125;/</span>],</span><br><span class="line">        <span class="comment">// root: path.resolve(__dirname, '../dist/static/img'),</span></span><br><span class="line">        <span class="comment">// publicPath: '../',</span></span><br><span class="line">        attrs: [<span class="string">'img:src'</span>, <span class="string">'link:href'</span>]  <span class="comment">// 这句配置是在尝试了多次之后，加上网上查找各种资料后添加(目前来看没问题)。</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h4 id="其他资源路径问题"><a href="#其他资源路径问题" class="headerlink" title="其他资源路径问题"></a>其他资源路径问题</h4><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">可以在分离css、sass等资源文件的时候添加下面配置</span><br><span class="line"></span><br><span class="line">test:  <span class="regexp">/\.(css|scss)$/</span>,</span><br><span class="line">use: ExtractTextPlugin.extract(&#123;</span><br><span class="line">    fallback: <span class="string">'style-loader'</span>,</span><br><span class="line">    use: [&#123;</span><br><span class="line">            loader: <span class="string">'css-loader'</span>,</span><br><span class="line">            options: &#123;</span><br><span class="line">                importLoaders: <span class="number">1</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;,</span><br><span class="line">        <span class="string">'postcss-loader'</span>,</span><br><span class="line">        &#123;</span><br><span class="line">            loader: <span class="string">'sass-loader'</span></span><br><span class="line">        &#125;,</span><br><span class="line">    ],</span><br><span class="line">    publicPath:<span class="string">'../../'</span>   <span class="comment">// 这个配置必须要有(以防找不到路径的情况)</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h4 id="这里放一个多页面配置-入口、出口"><a href="#这里放一个多页面配置-入口、出口" class="headerlink" title="这里放一个多页面配置(入口、出口)"></a>这里放一个多页面配置(入口、出口)</h4><p>可以加在你需要的文件（我是放在utils.js文件）</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">   <span class="comment">// 页面模板</span></span><br><span class="line">   <span class="keyword">var</span> PAGE_PATH = path.resolve(__dirname, <span class="string">'../src'</span>) <span class="comment">// 这里可以根据自己情况配置入口</span></span><br><span class="line">   <span class="comment">// var HTML_PATH = path.resolve(__dirname, '../src')</span></span><br><span class="line">   <span class="keyword">var</span> merge = <span class="built_in">require</span>(<span class="string">'webpack-merge'</span>)</span><br><span class="line"></span><br><span class="line">   <span class="comment">// 多入口配置</span></span><br><span class="line">   exports.entries = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">   <span class="keyword">var</span> entryFiles = glob.sync(PAGE_PATH + <span class="string">'/*.js'</span>) <span class="comment">// 同步匹配文件</span></span><br><span class="line">   <span class="keyword">var</span> map = &#123;&#125;</span><br><span class="line">   entryFiles.forEach(<span class="function">(<span class="params">filePath</span>) =&gt;</span> &#123;</span><br><span class="line">       <span class="keyword">var</span> filename = filePath.substring(filePath.lastIndexOf(<span class="string">'\/'</span>) + <span class="number">1</span>, filePath.lastIndexOf(<span class="string">'.'</span>))</span><br><span class="line">       map[filename] = filePath</span><br><span class="line">   &#125;)</span><br><span class="line">   <span class="keyword">return</span> map</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   <span class="comment">// 多页面输出配置</span></span><br><span class="line">   exports.htmlPlugin = <span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">   <span class="keyword">let</span> entryHtml = glob.sync(PAGE_PATH + <span class="string">'/*.html'</span>)</span><br><span class="line">   <span class="keyword">let</span> arr = []</span><br><span class="line">   entryHtml.forEach(<span class="function">(<span class="params">filePath</span>) =&gt;</span> &#123;</span><br><span class="line">       <span class="keyword">let</span> filename = filePath.substring(filePath.lastIndexOf(<span class="string">'\/'</span>) + <span class="number">1</span>, filePath.lastIndexOf(<span class="string">'.'</span>))</span><br><span class="line">       <span class="keyword">let</span> conf = &#123;</span><br><span class="line">       <span class="comment">// 模板来源</span></span><br><span class="line">       template: filePath,</span><br><span class="line">       <span class="comment">// 文件名称</span></span><br><span class="line">       filename: filename + <span class="string">'.html'</span>,</span><br><span class="line">       <span class="comment">// 页面模板需要加对应的js脚本，如果不加这行则每个页面都会引入所有的js脚本</span></span><br><span class="line">       chunks: [<span class="string">'manifest'</span>, <span class="string">'vendor'</span>, filename],</span><br><span class="line">       inject: <span class="literal">true</span></span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">if</span> (process.env.NODE_ENV === <span class="string">'production'</span>) &#123;</span><br><span class="line">           conf = merge(conf, &#123;</span><br><span class="line">               minify: &#123;</span><br><span class="line">               removeComments: <span class="literal">true</span>,</span><br><span class="line">               collapseWhitespace: <span class="literal">true</span>,</span><br><span class="line">               removeAttributeQuotes: <span class="literal">true</span></span><br><span class="line">               &#125;,</span><br><span class="line">               chunksSortMode: <span class="string">'dependency'</span></span><br><span class="line">           &#125;)</span><br><span class="line">       &#125;</span><br><span class="line">       arr.push(<span class="keyword">new</span> HtmlWebpackPlugin(conf))</span><br><span class="line">       &#125;)</span><br><span class="line">       <span class="keyword">return</span> arr</span><br><span class="line">   &#125;</span><br><span class="line"></span><br><span class="line">   调用方法(入口配置如下)</span><br><span class="line">   <span class="comment">// entry: &#123;</span></span><br><span class="line">   <span class="comment">// index: './src/index.js'</span></span><br><span class="line">   <span class="comment">// &#125;,</span></span><br><span class="line">   entry: utils.entries(),</span><br><span class="line"></span><br><span class="line">   开发环境配置（生产环境也如此）</span><br><span class="line">   plugins: [</span><br><span class="line"><span class="keyword">new</span> webpack.DefinePlugin(&#123;</span><br><span class="line"><span class="string">'process.env'</span>: config.dev.env</span><br><span class="line">&#125;),</span><br><span class="line"><span class="comment">// https://github.com/glenjamin/webpack-hot-middleware#installation--usage</span></span><br><span class="line"><span class="keyword">new</span> webpack.HotModuleReplacementPlugin(),</span><br><span class="line"><span class="keyword">new</span> webpack.NoEmitOnErrorsPlugin(),</span><br><span class="line"><span class="comment">// https://github.com/ampedandwired/html-webpack-plugin</span></span><br><span class="line"><span class="comment">// new HtmlWebpackPlugin(&#123;</span></span><br><span class="line"><span class="comment">// filename: 'index.html',</span></span><br><span class="line"><span class="comment">// template: 'index.html',</span></span><br><span class="line"><span class="comment">// inject: true</span></span><br><span class="line"><span class="comment">// &#125;),</span></span><br><span class="line"><span class="keyword">new</span> FriendlyErrorsPlugin()</span><br><span class="line">].concat(utils.htmlPlugin())  <span class="comment">// todo:这里需要加上(匹配相应的文件)</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;!-- 这里是平时做项目的时候踩过的一些坑，希望能帮到大家吧！ --&gt;
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+&lt;h3 id=&quot;webpack的一些问题&quot;&gt;&lt;a href=&quot;#webpack的一些问题&quot; class=&quot;headerlink&quot; title=&quot;webpack的一些问题&quot;&gt;&lt;/a&gt;w
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>个人项目</title>
+    <link href="http://yoursite.com/2018/02/12/programs/"/>
+    <id>http://yoursite.com/2018/02/12/programs/</id>
+    <published>2018-02-12T02:29:32.000Z</published>
+    <updated>2018-03-14T10:24:48.701Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><ol><li><strong>亲戚计算器</strong>  项目地址: <a href="https://mobile.51wnl.com/activity/calculator/index.html" target="_blank" rel="noopener">https://mobile.51wnl.com/activity/calculator/index.html</a></li></ol><p>说明: 这里几乎包含了所有中国亲戚关系的称呼，再也不需要担心叫不出亲戚的称呼了，快来这里查询你需要的亲戚关系吧!</p><ol><li><strong>祝福语</strong>  项目地址: <a href="https://mobile.51wnl.com/activity/bless/index.html" target="_blank" rel="noopener">https://mobile.51wnl.com/activity/bless/index.html</a></li></ol><p>说明:各种祝福语，送给好友、亲戚、领导…的祝福语大全都在这里，打开链接就能体验</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Quick-Start&quot;&gt;&lt;a href=&quot;#Quick-Start&quot; class=&quot;headerlink&quot; title=&quot;Quick Start&quot;&gt;&lt;/a&gt;Quick Start&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;亲戚计算器&lt;/strong&gt;  项目地址
+      
+    
+    </summary>
+    
+    
+      <category term="program" scheme="http://yoursite.com/tags/program/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Test</title>
+    <link href="http://yoursite.com/2018/02/09/test/"/>
+    <id>http://yoursite.com/2018/02/09/test/</id>
+    <published>2018-02-09T03:29:32.000Z</published>
+    <updated>2018-03-14T10:25:14.583Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to my blog!<br>推荐一片文章<a href="http://wycheng.me/2017/05/18/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E5%B0%8F%E7%99%BD%E7%AF%87%EF%BC%89/" target="_blank" rel="noopener">个人博客</a>这里可以学到hexo+github搭建个人博客的方式</p><h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><h1 id="1级标题"><a href="#1级标题" class="headerlink" title="1级标题"></a>1级标题</h1><h2 id="2级标题"><a href="#2级标题" class="headerlink" title="2级标题"></a>2级标题</h2><h3 id="3级标题"><a href="#3级标题" class="headerlink" title="3级标题"></a>3级标题</h3><h4 id="4级标题"><a href="#4级标题" class="headerlink" title="4级标题"></a>4级标题</h4><h5 id="5级标题"><a href="#5级标题" class="headerlink" title="5级标题"></a>5级标题</h5><h6 id="6级标题"><a href="#6级标题" class="headerlink" title="6级标题"></a>6级标题</h6><h3 id="加粗文本"><a href="#加粗文本" class="headerlink" title="加粗文本"></a>加粗文本</h3><p><strong>文本</strong><br><strong>加粗</strong></p><h3 id="斜体文本"><a href="#斜体文本" class="headerlink" title="斜体文本"></a>斜体文本</h3><p><em>文本</em><br>_斜体_</p><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul><li>red</li><li>green</li></ul><ul><li>yellow</li><li>gray</li></ul><ul><li>blue</li><li>orange</li></ul><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol><li>red</li><li>green</li></ol><h3 id="图片和链接"><a href="#图片和链接" class="headerlink" title="图片和链接"></a>图片和链接</h3><!-- 图片：![图片文本 可不写](http://b.cqyouloft.com/labaFestival2017/img/share.png) --><p>图片：<img src="图片url" alt="图片文本"><br>链接： <a href="链接url">链接文本</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to my blog!&lt;br&gt;推荐一片文章&lt;a href=&quot;http://wycheng.me/2017/05/18/Hexo-Github%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%B
+      
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
