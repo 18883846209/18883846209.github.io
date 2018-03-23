@@ -17,20 +17,6 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Repositories</title>
-    <link href="http://yoursite.com/2018/03/23/repository/index/"/>
-    <id>http://yoursite.com/2018/03/23/repository/index/</id>
-    <published>2018-03-23T07:32:33.821Z</published>
-    <updated>2018-03-23T07:32:33.821Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>标签</title>
     <link href="http://yoursite.com/2018/03/23/tags/index/"/>
     <id>http://yoursite.com/2018/03/23/tags/index/</id>
@@ -45,11 +31,11 @@
   </entry>
   
   <entry>
-    <title>分类</title>
-    <link href="http://yoursite.com/2018/03/23/categories/index/"/>
-    <id>http://yoursite.com/2018/03/23/categories/index/</id>
-    <published>2018-03-23T07:32:33.820Z</published>
-    <updated>2018-03-23T07:32:33.820Z</updated>
+    <title>Repositories</title>
+    <link href="http://yoursite.com/2018/03/23/repository/index/"/>
+    <id>http://yoursite.com/2018/03/23/repository/index/</id>
+    <published>2018-03-23T07:32:33.821Z</published>
+    <updated>2018-03-23T07:32:33.821Z</updated>
     
     <summary type="html">
     
@@ -73,17 +59,13 @@
   </entry>
   
   <entry>
-    <title>关于</title>
-    <link href="http://yoursite.com/2018/03/23/about/index/"/>
-    <id>http://yoursite.com/2018/03/23/about/index/</id>
-    <published>2018-03-23T07:32:33.819Z</published>
-    <updated>2018-03-23T07:32:33.819Z</updated>
-    
-    <content type="html"><![CDATA[<p>个人详细介绍</p>]]></content>
+    <title>分类</title>
+    <link href="http://yoursite.com/2018/03/23/categories/index/"/>
+    <id>http://yoursite.com/2018/03/23/categories/index/</id>
+    <published>2018-03-23T07:32:33.820Z</published>
+    <updated>2018-03-23T07:32:33.820Z</updated>
     
     <summary type="html">
-    
-      个人简介
     
     </summary>
     
@@ -98,6 +80,24 @@
     <updated>2018-03-23T07:32:33.820Z</updated>
     
     <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>关于</title>
+    <link href="http://yoursite.com/2018/03/23/about/index/"/>
+    <id>http://yoursite.com/2018/03/23/about/index/</id>
+    <published>2018-03-23T07:32:33.819Z</published>
+    <updated>2018-03-23T07:32:33.819Z</updated>
+    
+    <content type="html"><![CDATA[<p>个人详细介绍</p>]]></content>
+    
+    <summary type="html">
+    
+      个人简介
     
     </summary>
     
